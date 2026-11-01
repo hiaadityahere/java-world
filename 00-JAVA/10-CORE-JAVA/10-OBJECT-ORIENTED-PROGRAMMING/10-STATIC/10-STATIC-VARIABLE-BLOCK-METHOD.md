@@ -1,5 +1,5 @@
 # `static` keyword in Java
-> When a **member** (variable, method, or block) of a class is declared using the keyword `static`,  then that member is called a **static member**.
+> When a **member** (variable, method, or block) of a class is declared using the `static` keyword,  then that member is called a **static member**.
 > 
 > A **static member** **belongs to the class itself**, not to any specific object of the class. means it is **common for all objects** of that class — there is only **one copy** of it in memory.
 
