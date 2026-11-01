@@ -1,5 +1,5 @@
 # `super`
-> `super` is a keyword in Java which is used to refer to the immediate parent class of the current object.
+> `super` is a keyword in Java which is used to refer the immediate parent class of the current object.
 
 ## It is mainly used in three cases:
 1. To call **parent class constructor**
