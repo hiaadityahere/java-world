@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/20-CONSTRUCTOR/00-CONSTRUCTOR.md",
+                "file": "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/20-CONSTRUCTOR/30-NO-ARGUMENT-CONSTRUCTOR.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-CONSTRUCTOR"
+              "title": "30-NO-ARGUMENT-CONSTRUCTOR"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.30001831054688
+    "width": 200
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -200,6 +200,7 @@
   },
   "active": "6dbc50c357a215e6",
   "lastOpenFiles": [
+    "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/20-CONSTRUCTOR/00-CONSTRUCTOR.md",
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/60-ABSTRACTION/20-INTERFACE/00-INTERFACE.md",
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/60-ABSTRACTION/FUNCTIONAL-INTERFACE.md",
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/60-ABSTRACTION/20-INTERFACE.md",
@@ -235,7 +236,6 @@
     "00-JAVA/20-ADVANCED-JAVA/00-JAR/00-JAR-AND-DEPENDENCIES.md",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR",
     "00-JAVA/20-ADVANCED-JAVA",
-    "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/30-ENCAPSULATION/00-ENCAPSULATION.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method.drawio.svg",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method.drawio",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-inside-thread0.png",
