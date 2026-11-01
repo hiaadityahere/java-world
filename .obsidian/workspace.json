@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 335.8999938964844
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -198,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6dbc50c357a215e6",
+  "active": "8bf0306927ff6ed0",
   "lastOpenFiles": [
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/40-INHERITANCE/00-IS-A-RELATIONSHIP.md",
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/40-INHERITANCE/01-HAS-A-RELATIONSHIP.md",
