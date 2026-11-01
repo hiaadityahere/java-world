@@ -1,5 +1,5 @@
 # Copy Constructor
-> A Copy Constructor** is a constructor which is used to create a new object using an existing object of the same class.
+> A **Copy Constructor** is a constructor which is used to create a new object using an existing object of the same class.
 > Java does not provide a built-in copy constructor automatically like C++.
 
 ## Syntax
