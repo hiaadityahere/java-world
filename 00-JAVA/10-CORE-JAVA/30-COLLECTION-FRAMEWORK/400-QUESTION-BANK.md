@@ -25,4 +25,6 @@ Fail Safe iterators make a copy of the internal collection object and iterates o
 **Example of Fail Safe Collection** - `ConcurrentHashMap`, `CopyOnWriteArrayList`
 Since Fail Safe creates a copy, therefore it takes some extra memory.
 
-# Q5 What is the contract between equals() and hashCode() method and what is the impact of these method in hashing based collection?
+---
+1. What is the contract between `equals()` and `hashCode()` method and what is the impact of these method in hashing based collection?
+2. 
