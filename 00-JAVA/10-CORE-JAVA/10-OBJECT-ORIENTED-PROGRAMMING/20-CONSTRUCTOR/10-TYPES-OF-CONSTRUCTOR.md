@@ -1,6 +1,6 @@
 # Types of Constructor
 
-![Types-of-Constructor](types-of-constructor.drawio.svg)
+![Types-of-Constructor](./images/types-of-constructor.drawio.svg)
 
 1. [**Default-Constructor**](20-DEFAULT-CONSTRUCTOR.md)
 2. [**No-Args Constructor**](30-NO-ARGUMENT-CONSTRUCTOR.md)
