@@ -19,3 +19,8 @@ This scenario is called as Fail-Fast.
 - `Stack`
 - `PriorityQueue`
 # Q3 What is Fail Safe ?
+Fail-safe iterators are safe and don't throw any Exception if we modify the structure of a collection object while iterating over it. These Fail-Safe iterators.
+# Q4 How Fail Safe Iterator works ?
+Fail Safe iterators make a copy of the internal collection object and iterates over the copied collection. so if any structural modification happens then it affect on the copied collection (which is called as Snapshot), **not original collection**. 
+**Example of Fail Safe Collection** - `ConcurrentHashMap`, `CopyOnWriteArrayList`
+Since Fail Safe creates a copy, therefore it takes some extra memory.
