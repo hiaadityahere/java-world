@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.3000183105469,
-    "collapsed": true
+    "width": 414.3000183105469
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -184,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,8 +197,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6dbc50c357a215e6",
+  "active": "8bf0306927ff6ed0",
   "lastOpenFiles": [
+    "00-JAVA/10-CORE-JAVA/SPRING",
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/20-CONSTRUCTOR/50-COPY-CONSTRUCTOR.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/400-QUESTION-BANK.md",
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/20-CONSTRUCTOR/45-CONSTRUCTORS-VALIDATION-FAIL-FAST.md",
@@ -226,7 +225,6 @@
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/50-POLYMORPHISM/01-TYPES-OF-POLYMORPHISM.md",
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/50-POLYMORPHISM/00-POLYMORPHISM.md",
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/10-STATIC/10-STATIC-VARIABLE-BLOCK-METHOD.md",
-    "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/10-STATIC/30-STATIC-MEMBERS-INSIDE-MEMORY.md",
     "00-JAVA/20-ADVANCED-JAVA/10-MAVEN/images/maven-central-repo.png",
     "00-JAVA/20-ADVANCED-JAVA/10-MAVEN/images",
     "00-JAVA/20-ADVANCED-JAVA/10-MAVEN",
