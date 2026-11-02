@@ -24,3 +24,5 @@ Fail-safe iterators are safe and don't throw any Exception if we modify the stru
 Fail Safe iterators make a copy of the internal collection object and iterates over the copied collection. so if any structural modification happens then it affect on the copied collection (which is called as Snapshot), **not original collection**. 
 **Example of Fail Safe Collection** - `ConcurrentHashMap`, `CopyOnWriteArrayList`
 Since Fail Safe creates a copy, therefore it takes some extra memory.
+
+# Q5 What is the contract between equals() and hashCode() method and what is the impact of these method in hashing based collection?
