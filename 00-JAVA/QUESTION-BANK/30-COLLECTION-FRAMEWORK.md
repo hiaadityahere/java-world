@@ -95,3 +95,8 @@
 86. Where did you use ConcurrentHashMap in your project?
 87. Where did you use the producer-consumer pattern in your project?
 # Immutability and modern Java
+88. How do you make a collection read-only (`Collections.unmodifiableList` vs `List.copyOf`)?
+89. What changed for immutable collections in Java 9 (`List.of`, `Set.of`, `Map.of`)? How do they differ from `Collections.unmodifiableList`?
+90. What are Sequenced Collections in Java 21 (`SequencedCollection`, `SequencedSet`, `SequencedMap`), and what problem do they solve?
+91. How do `getFirst()`, `getLast()` and `reversed()` work, and which existing classes now implement them?
+# 
