@@ -14,7 +14,7 @@
 14. What is a class-level lock, and why do we need it?
 15. Which situations can cause a race condition?
 16. What is inter-thread communication?
-17. Why are `wait()`, `notify()` and `notifyAll()` defined in `Object` and not in `Thread`? [131]  
-18. What is the difference between `sleep()` and `wait()`? [79, 119]  
-19. What is `ExecutorService` in Java? [92]  
-20. What are the different types of thread pools? [106]
+17. Why are `wait()`, `notify()` and `notifyAll()` defined in `Object` and not in `Thread`?
+18. What is the difference between `sleep()` and `wait()`?
+19. What is `ExecutorService` in Java?
+20. What are the different types of thread pools?
