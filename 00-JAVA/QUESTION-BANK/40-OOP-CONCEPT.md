@@ -22,5 +22,5 @@
 8. What is a functional interface? Can you give examples of existing ones?
 9. What is the difference between a functional interface and a marker interface?
 10. What is a marker interface?
-11. A marker interface has no methods. How does it work internally? [63]
-12. Can you write a custom marker interface? [64]
+11. A marker interface has no methods. How does it work internally?
+12. Can you write a custom marker interface?
