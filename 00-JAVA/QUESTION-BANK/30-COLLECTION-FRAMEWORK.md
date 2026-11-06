@@ -99,4 +99,10 @@
 89. What changed for immutable collections in Java 9 (`List.of`, `Set.of`, `Map.of`)? How do they differ from `Collections.unmodifiableList`?
 90. What are Sequenced Collections in Java 21 (`SequencedCollection`, `SequencedSet`, `SequencedMap`), and what problem do they solve?
 91. How do `getFirst()`, `getLast()` and `reversed()` work, and which existing classes now implement them?
-# 
+# Coding and design
+92. How would you implement an LRU cache using `LinkedHashMap`?
+93. How would you design your own HashMap?
+94. Group a list of employees by department using `Collectors.groupingBy`.
+95. Find the highest-paid employee in each department.
+96. Convert a List to a Map and handle duplicate keys (`Collectors.toMap`).
+97. Find the duplicate elements in a list using streams.
