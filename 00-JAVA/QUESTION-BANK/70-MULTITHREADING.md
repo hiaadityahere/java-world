@@ -8,3 +8,13 @@
 8. Why don’t we call `run()` directly when we want multithreading?
 9. Why can’t we call `start()` twice on a thread, and which exception is thrown?
 10. Explain the thread life cycle.
+11. What is synchronization?
+12. What is the difference between a synchronized method and a synchronized block?
+13. What is an object lock, what is its purpose, and who uses it?
+14. What is a class-level lock, and why do we need it?
+15. Which situations can cause a race condition?
+16. What is inter-thread communication?
+17. Why are `wait()`, `notify()` and `notifyAll()` defined in `Object` and not in `Thread`? [131]  
+18. What is the difference between `sleep()` and `wait()`? [79, 119]  
+19. What is `ExecutorService` in Java? [92]  
+20. What are the different types of thread pools? [106]
