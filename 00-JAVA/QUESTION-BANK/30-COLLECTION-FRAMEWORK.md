@@ -28,3 +28,28 @@
 25. What happens if you add a user-defined object to a TreeSet without implementing `Comparable`?
 26. You have an `Employee` class with `empId` and `empName`. If you insert two `Employee` objects into a TreeSet, what happens, and how do you fix it?
 # `Map`
+27. How does the `get()` method of a HashMap work?
+28. How does a HashMap work internally?
+29. How is the bucket index calculated from the hash code?
+30. Why is a HashMap’s capacity always a power of two?
+31. What are the initial capacity and load factor of a HashMap? What is rehashing, and how does resizing work?
+32. What is a hash collision, and how does HashMap handle it?
+33. What happens when two keys have the same `hashCode()` but are not equal?
+34. What is a Red-Black Tree, and why does HashMap use it?
+35. How does treeification work in HashMap? When does untreeification happen?
+36. How many entries can a HashMap hold, and what limits that?
+37. Why should HashMap keys be immutable? What can go wrong with a mutable key?
+38. Can a HashMap have a null key or null values? What about Hashtable, TreeMap and ConcurrentHashMap?
+39. What is the difference between HashMap and Hashtable?
+40. What is the difference between HashMap and HashSet?
+41. What is a LinkedHashMap, and how does it differ from a HashMap?
+42. What is the difference between HashMap, LinkedHashMap and TreeMap?
+43. What is the difference between TreeSet and TreeMap?
+44. What is a `WeakHashMap`, and when would you use it?
+45. What is an `IdentityHashMap`?
+46. What is an `EnumMap`, and why is it faster than a HashMap for enum keys?
+47. What is the best way to iterate over a Map?
+48. How do you sort a Map by key and by value?
+49. Explain `computeIfAbsent`, `merge`, `getOrDefault` and `putIfAbsent`.
+50. Where did you use Map in your project?
+# `Queue`, `Deque`, `Stack`
