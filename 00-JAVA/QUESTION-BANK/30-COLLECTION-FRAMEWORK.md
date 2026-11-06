@@ -85,4 +85,13 @@
 77. If you override only `equals()` and not `hashCode()`, what happens?
 78. What role does `equals()` play in hashing-based collections?
 79. What is the contract between `equals()` and `hashCode()`?
-# 
+# Concurrent and thread-safe collections
+80. What is the difference between HashMap and ConcurrentHashMap?
+81. How does ConcurrentHashMap achieve thread safety? How did it change between Java 7 (segments) and Java 8 (CAS and synchronized bins)?
+82. When would you choose ConcurrentHashMap over a synchronized HashMap, and when does it stop helping?
+83. What race conditions can occur when multiple threads use a HashMap? What could happen during resizing?
+84. What is the difference between a synchronized collection (`Collections.synchronizedMap`) and a concurrent collection (`ConcurrentHashMap`)?
+85. How do you make a collection thread-safe?
+86. Where did you use ConcurrentHashMap in your project?
+87. Where did you use the producer-consumer pattern in your project?
+# Immutability and modern Java
