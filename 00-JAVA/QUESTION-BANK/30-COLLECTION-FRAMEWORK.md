@@ -106,3 +106,8 @@
 95. Find the highest-paid employee in each department.
 96. Convert a List to a Map and handle duplicate keys (`Collectors.toMap`).
 97. Find the duplicate elements in a list using streams.
+# Performance and project experience
+98. Which collection would you use for fast lookup, ordered iteration, sorted data, a cache, and a queue of tasks? Why?
+99. What are the time complexities of the main operations in ArrayList, LinkedList, HashMap, TreeMap, HashSet and PriorityQueue?
+100. How can a collection cause a memory leak, for example a static Map used as a cache? How would you prevent it?
+101. Where did you use ArrayList, LinkedList and HashMap in your project?
