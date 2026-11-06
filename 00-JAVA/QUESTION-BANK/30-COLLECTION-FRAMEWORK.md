@@ -60,3 +60,15 @@
 55. Why is `Stack` discouraged, and what should you use instead (`ArrayDeque`)?
 56. What is a `BlockingQueue`? What is the difference between `ArrayBlockingQueue` and `LinkedBlockingQueue`?
 # Iterators: fail-fast and fail-safe
+57. What is a `ConcurrentModificationException`, and when is it thrown?
+58. What is the difference between fail-fast and fail-safe iterators?
+59. Can you give examples of fail-fast and fail-safe collection classes and explain how each works?
+60. What happens if you modify a collection while iterating over it?
+61. How does `modCount` help detect concurrent modification?
+62. How do you safely remove elements while iterating (`Iterator.remove()`, `removeIf`)?
+63. What is the difference between `iterator.remove()` and `list.remove()`?
+64. What is the difference between `Iterator` and `ListIterator`?
+65. Why is there a `ListIterator` but no `SetIterator` or `MapIterator`?
+66. What is the difference between `Enumeration` and `Iterator`?
+67. What is the difference between `Iterator` and `Spliterator`?
+# Sorting and comparison
