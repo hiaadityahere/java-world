@@ -17,3 +17,14 @@
 15. How do you remove duplicates from a List while preserving order?
 16. What is the difference between `Arrays.asList()`, `List.of()` and `new ArrayList<>(...)`? Which are fixed-size or immutable?
 # `Set`
+17. What is the difference between a List and a Set? Explain in detail.
+18. How does HashSet work internally?
+19. What is the difference between HashSet, LinkedHashSet and TreeSet?
+20. How does LinkedHashSet work internally?
+21. What is the difference between LinkedHashSet and LinkedList?
+22. What happens when you add a duplicate element to a Set?
+23. How does TreeSet maintain order, and which data structure does it use internally?
+24. Which of HashSet, LinkedHashSet and TreeSet allow a null element?
+25. What happens if you add a user-defined object to a TreeSet without implementing `Comparable`?
+26. You have an `Employee` class with `empId` and `empName`. If you insert two `Employee` objects into a TreeSet, what happens, and how do you fix it?
+# `Map`
