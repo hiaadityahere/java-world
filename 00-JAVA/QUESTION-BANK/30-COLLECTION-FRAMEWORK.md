@@ -53,3 +53,10 @@
 49. Explain `computeIfAbsent`, `merge`, `getOrDefault` and `putIfAbsent`.
 50. Where did you use Map in your project?
 # `Queue`, `Deque`, `Stack`
+51. What is the difference between `Queue` and `Deque`?
+52. What is the difference between `offer`/`add`, `poll`/`remove` and `peek`/`element`?
+53. What is a PriorityQueue, and how does it order elements internally (binary heap)?
+54. How do you implement a max-heap using a PriorityQueue?
+55. Why is `Stack` discouraged, and what should you use instead (`ArrayDeque`)?
+56. What is a `BlockingQueue`? What is the difference between `ArrayBlockingQueue` and `LinkedBlockingQueue`?
+# Iterators: fail-fast and fail-safe
