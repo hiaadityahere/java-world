@@ -72,3 +72,17 @@
 66. What is the difference between `Enumeration` and `Iterator`?
 67. What is the difference between `Iterator` and `Spliterator`?
 # Sorting and comparison
+68. What is the difference between `Comparable` and `Comparator`? When would you use `compareTo()` and when `compare()`?
+69. What is the difference between `equals()` and `compareTo()`/`compare()`?
+70. How do you sort a list of custom objects by multiple fields (`Comparator.comparing().thenComparing()`)?
+71. What happens if `compareTo()` is inconsistent with `equals()` in a TreeSet or TreeMap?
+72. What is the difference between `Collections.sort()` and `Arrays.sort()`, and which algorithm do they use?
+73. Where did you use `Comparable` and `Comparator` in your project?
+# `equals()` and `hashCode()`
+74. What is the difference between `equals()` and `hashCode()`?
+75. Why do we need to override both `equals()` and `hashCode()`?
+76. If you override only `hashCode()` and not `equals()`, what happens when the object is used as a HashMap key?
+77. If you override only `equals()` and not `hashCode()`, what happens?
+78. What role does `equals()` play in hashing-based collections?
+79. What is the contract between `equals()` and `hashCode()`?
+# 
