@@ -13,4 +13,3 @@
 13. Write Stream API code to separate even and odd numbers.
 14. Write Stream API code to count the occurrences of each character in a string.
 15. Write Stream API code to find the first non-repeating character in a string.
-16. 
