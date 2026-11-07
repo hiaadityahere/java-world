@@ -65,4 +65,7 @@
 | #   | Approach      | Example                                    |
 | --- | ------------- | ------------------------------------------ |
 | 1   | `new` keyword | `Employee e = new Employee(101, "Alpha");` |
-|     |               |                                            |
+| 2   | Reflection    |                                            |
+| 3   |               |                                            |
+| 4   |               |                                            |
+| 5   |               |                                            |
