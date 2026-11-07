@@ -62,12 +62,12 @@
 8. What are wrapper classes, and why does Java need them? How do autoboxing and unboxing work?
 9. What are the different ways to create an object in Java?
 
-| #   | Approach      | Example                                                                             |
-| --- | ------------- | ----------------------------------------------------------------------------------- |
-| 1   | `new` keyword | `Employee e = new Employee(101, "Alpha");`                                          |
-| 2   |               |                                                                                     |
-| 3   |               |                                                                                     |
-| 4   |               |                                                                                     |
-| 5   |               |                                                                                     |
-| 6   |               |                                                                                     |
-| 7   | Reflection    | - `Class.newInstance()` (deprecated since Java 9) or `- `Constructor.newInstance()` |
+| #   | Approach         | Example                                                                                |
+| --- | ---------------- | -------------------------------------------------------------------------------------- |
+| 1   | `new` keyword    | `Employee e = new Employee(101, "Alpha");`                                             |
+| 2   | Deserialization  |                                                                                        |
+| 3   | `clone()`        |                                                                                        |
+| 4   | Copy Constructor |                                                                                        |
+| 5   |                  |                                                                                        |
+| 6   |                  |                                                                                        |
+| 7   | Reflection       | - `Class.newInstance()` (deprecated since Java 9)<br><br>- `Constructor.newInstance()` |
