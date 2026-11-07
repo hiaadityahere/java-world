@@ -46,7 +46,7 @@
 | 2   | Static members belong to class and they can be called using class name. | Non-static members belong to objects and they can be accessed using object names. |
 | 3   | Static members allocate memory only once when the class is loaded.      | Non-static members allocate memory each time an object is created.                |
 | 4   | Scope of Static members are class level.                                | Scope of Non-Static members are limited to object-level.                          |
-| 5   | Static members                                                          |                                                                                   |
+| 5   | Static methods cannot access instance members directly.                 | Non-Static methods can access both instance and static members.                   |
 
 3. What is a static initialization block, and when would you use one?
 4. Why can’t a static method be overridden in Java?
