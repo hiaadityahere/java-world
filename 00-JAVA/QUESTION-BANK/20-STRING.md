@@ -20,4 +20,7 @@
 6. **What is String interning?**
 	String interning is a memory optimization technique where Java ensures that only one copy of each string literal exists in memory. This copy is stored in the String Constant Pool (SCP) which allows the JVM to reuse it.
 7. **How does interning work?**
+	When a String literal like "Java" is used, JVM checks whether it is already inside SCP or not:
+	- if it is there, JVM reuses the reference from the SCP.
+	- If it's not, JVM creates a new String object inside SCP and returns its reference.
 8. **Is String really thread-safe?**
