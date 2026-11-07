@@ -10,7 +10,7 @@
 			- Since String is immutable means one reference cannot modify the shared object's content and affect other references. and because of this, it reduces unnecessary object creation and saves Heap memory.
 		2. Security
 			- Strings are commonly used for sensitive information such as database URLs, file paths and authentication-related values. Immutability prevents the existing String object's content from being modified unexpectedly.
-3. 
+3. How many ways are there to create an String object?
 4. What is the difference between `StringBuilder` and `StringBuffer`, and which one is faster? Why?
 5. What is the difference between `equals()` and `==`?
 6. What is String interning?
