@@ -61,3 +61,8 @@
 7. Can a static method access a non-static method directly?
 8. What are wrapper classes, and why does Java need them? How do autoboxing and unboxing work?
 9. What are the different ways to create an object in Java?
+
+| #   | Approach      | Example                                    |
+| --- | ------------- | ------------------------------------------ |
+| 1   | `new` keyword | `Employee e = new Employee(101, "Alpha");` |
+|     |               |                                            |
