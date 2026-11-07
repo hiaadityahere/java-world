@@ -45,7 +45,7 @@
 | 1   | Static members are declared using the `static` keyword.                 | Non-static members are declared without the `static` keyword.                     |
 | 2   | Static members belong to class and they can be called using class name. | Non-static members belong to objects and they can be accessed using object names. |
 | 3   | Static members allocate memory only once when the class is loaded.      | Non-static members allocate memory each time an object is created.                |
-| 4   |                                                                         |                                                                                   |
+| 4   | Scope of                                                                |                                                                                   |
 
 3. What is a static initialization block, and when would you use one?
 4. Why can’t a static method be overridden in Java?
