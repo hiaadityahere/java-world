@@ -18,6 +18,6 @@
 5. What is the difference between `equals()` and `==`?
 	In Java, == is used to compare the <mark>references</mark> of two String objects, whereas `equals()` method is used to compare their <mark>actual content</mark>.
 6. What is String interning?
-	String interning is a memory optimization technique where Java ensures that only one copy of each string literal exists in memory. This copy is stored in the String Constant Pool (SCP) which allowing the JVM to reuse it.
+	String interning is a memory optimization technique where Java ensures that only one copy of each string literal exists in memory. This copy is stored in the String Constant Pool (SCP) which allows the JVM to reuse it.
 7. How does interning work?
 8. Is String really thread-safe?
