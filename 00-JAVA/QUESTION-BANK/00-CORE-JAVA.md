@@ -68,6 +68,6 @@
 | 2   | Deserialization  |                                                                                        |
 | 3   | `clone()`        |                                                                                        |
 | 4   | Copy Constructor |                                                                                        |
-| 5   |                  |                                                                                        |
-| 6   |                  |                                                                                        |
+| 5   | Factory Methods  | `LocalDate.now()`, `List.of()`                                                         |
+| 6   | String Literals  | `String s1 = "Java";`                                                                  |
 | 7   | Reflection       | - `Class.newInstance()` (deprecated since Java 9)<br><br>- `Constructor.newInstance()` |
