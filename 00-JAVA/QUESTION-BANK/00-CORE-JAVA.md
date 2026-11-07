@@ -32,6 +32,7 @@
 		5. Native Method Stack
 			- The Native Method Stack supports the execution of native methods.
 			- Native methods are methods which are implemented in some other language that Java.
+
 2. Which Java versions have you worked with, and which features did you actually use in your project?
 3. What is the difference between static and non-static members in Java?
 4. What is a static initialization block, and when would you use one?
