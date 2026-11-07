@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-JAVA/QUESTION-BANK/90-JDBC.md",
+                "file": "00-JAVA/QUESTION-BANK/30-COLLECTION-FRAMEWORK.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "90-JDBC"
+              "title": "30-COLLECTION-FRAMEWORK"
             }
           }
         ]
@@ -201,8 +201,8 @@
   },
   "active": "6417be301af2dc4e",
   "lastOpenFiles": [
-    "00-JAVA/QUESTION-BANK/80-JAVA-8-STREAM-API.md",
     "00-JAVA/QUESTION-BANK/90-JDBC.md",
+    "00-JAVA/QUESTION-BANK/80-JAVA-8-STREAM-API.md",
     "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/QUESTION-BANK/60-EXCEPTION-HANDLING.md",
     "00-JAVA/QUESTION-BANK/50-CLONING-AND-SERDE.md",
