@@ -1,0 +1,16 @@
+{
+  "wrapperTags": [
+    {
+      "id": "w1794044452346",
+      "name": "Mark Highlight",
+      "startTag": "<mark>",
+      "endTag": "</mark>"
+    },
+    {
+      "id": "underline",
+      "name": "Underline",
+      "startTag": "<u>",
+      "endTag": "</u>"
+    }
+  ]
+}
