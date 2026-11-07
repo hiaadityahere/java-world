@@ -13,7 +13,7 @@
 3. How many ways are there to create an String object?
 	There are two ways to create String objects:
 	1. Using String literals
-	2. Using new keyword
+	2. Using `new` keyword
 4. What is the difference between `StringBuilder` and `StringBuffer`, and which one is faster? Why?
 5. What is the difference between `equals()` and `==`?
 6. What is String interning?
