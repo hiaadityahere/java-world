@@ -10,14 +10,14 @@
 			- Since String is immutable means one reference cannot modify the shared object's content and affect other references. and because of this, it reduces unnecessary object creation and saves Heap memory.
 		2. Security
 			- Strings are commonly used for sensitive information such as database URLs, file paths and authentication-related values. Immutability prevents the existing String object's content from being modified unexpectedly.
-3. How many ways are there to create an String object?
+3. **How many ways are there to create an String object?**
 	There are two ways to create String objects:
 	1. Using String literals
 	2. Using `new` keyword
-4. What is the difference between `StringBuilder` and `StringBuffer`, and which one is faster? Why?
-5. What is the difference between `equals()` and `==`?
+4. **What is the difference between `StringBuilder` and `StringBuffer`, and which one is faster? Why?**
+5. **What is the difference between `equals()` and `==`?**
 	In Java, == is used to compare the <mark>references</mark> of two String objects, whereas `equals()` method is used to compare their <mark>actual content</mark>.
-6. What is String interning?
+6. **What is String interning?**
 	String interning is a memory optimization technique where Java ensures that only one copy of each string literal exists in memory. This copy is stored in the String Constant Pool (SCP) which allows the JVM to reuse it.
-7. How does interning work?
-8. Is String really thread-safe?
+7. **How does interning work?**
+8. **Is String really thread-safe?**
