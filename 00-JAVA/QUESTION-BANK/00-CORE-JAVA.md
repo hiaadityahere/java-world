@@ -55,6 +55,9 @@
 	- Since static methods are associated with the class, they are resolved at compile time based on the reference class. This is called static binding (early binding).
 	- If a child class writes a static method with the same signature as its parent class, it is called Method Hiding, not Method Overriding.
 6. Can a static method be overloaded?
+	- Yes, static methods can be overloaded because method overloading depends on the method signature.
+	- Method overloading is based on compile-time polymorphism, where the compiler decides which method should be called based on the arguments passed during the method call.
+	- and the `static` keyword does not restrict method overloading.
 7. Can a static method access a non-static method directly?
 8. What are wrapper classes, and why does Java need them? How do autoboxing and unboxing work?
 9. What are the different ways to create an object in Java?
