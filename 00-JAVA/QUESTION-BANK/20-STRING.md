@@ -16,5 +16,6 @@
 	2. Using `new` keyword
 4. What is the difference between `StringBuilder` and `StringBuffer`, and which one is faster? Why?
 5. What is the difference between `equals()` and `==`?
+	In Java, == is used to compare the <mark>references</mark> of two String objects, whereas `equals()` method is used to compare their <mark>actual content</mark>.
 6. What is String interning?
 7. Is String really thread-safe?
