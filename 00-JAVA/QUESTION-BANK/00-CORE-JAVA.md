@@ -40,12 +40,12 @@
 
 3. What is the difference between static and non-static members in Java?
 	
-| #   | Static Members                                          | Non-Static Members                                            |
-| --- | ------------------------------------------------------- | ------------------------------------------------------------- |
-| 1   | Static members are declared using the `static` keyword. | Non-static members are declared without the `static` keyword. |
-| 2   | Static members belong to class.                         | Non-static members belong to objects.                         |
-| 3   |                                                         |                                                               |
-|     |                                                         |                                                               |
+| #   | Static Members                                                          | Non-Static Members                                                                |
+| --- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| 1   | Static members are declared using the `static` keyword.                 | Non-static members are declared without the `static` keyword.                     |
+| 2   | Static members belong to class and they can be called using class name. | Non-static members belong to objects and they can be accessed using object names. |
+| 3   |                                                                         |                                                                                   |
+| 4   |                                                                         |                                                                                   |
 
 3. What is a static initialization block, and when would you use one?
 4. Why can’t a static method be overridden in Java?
