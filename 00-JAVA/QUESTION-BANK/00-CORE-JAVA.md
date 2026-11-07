@@ -1,4 +1,4 @@
-1. Can you explain the JVM memory model? What lives in the heap, the stack and Metaspace?
+1. **Can you explain the JVM memory model? What lives in the heap, the stack and Metaspace?**
 	When we run a Java program, JVM bifurcate its runtime memory area into 5 section - 
 	1. Stack
 	2. Heap
@@ -33,12 +33,12 @@
 			- The Native Method Stack supports the execution of native methods.
 			- Native methods are methods which are implemented in some other language that Java.
 
-2. Which Java versions have you worked with, and which features did you actually use in your project?
+2. **Which Java versions have you worked with, and which features did you actually use in your project?**
 	- I have primarily worked with Java 17 to develop and run my Maven-based projects. 
 
 	- I have also used Java 8 features such as the Stream API and Optional. Stream API helped me for operations like filtering, mapping and processing collections.
 
-3. What is the difference between static and non-static members in Java?
+3. **What is the difference between static and non-static members in Java?**
 	
 | #   | Static Members                                                          | Non-Static Members                                                                |
 | --- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
@@ -48,7 +48,11 @@
 | 4   | Scope of Static members are class level.                                | Scope of Non-Static members are limited to object-level.                          |
 | 5   | Static methods cannot access instance members directly.                 | Non-Static methods can access both instance and static members.                   |
 
-3. What is a static initialization block, and when would you use one?
-4. Why can’t a static method be overridden in Java?
-5. What are wrapper classes, and why does Java need them? How do autoboxing and unboxing work?
-6. What are the different ways to create an object in Java?
+4. **What is a static initialization block, and when would you use one?**
+5. **Why can’t a static method be overridden in Java?**
+	- Static method cannot be overridden in Java because static methods belong to the class, not to individual objects.
+	- Method overriding is based on runtime polymorphism, where JVM decides which method to execute based on the actual object type.
+	- Since static methods are associated with the class, they are resolved at compile time based on the reference class. This is called static binding (early binding).
+	- If a child class writes a static method with the same signature as its parent class, it is called Method Hiding, not Method Overriding.
+6. What are wrapper classes, and why does Java need them? How do autoboxing and unboxing work?
+7. What are the different ways to create an object in Java?
