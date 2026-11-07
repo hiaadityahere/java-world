@@ -12,3 +12,5 @@
 			- Strings are commonly used for sensitive information such as database URLs, file paths and authentication-related values. Immutability prevents the existing String object's content from being modified unexpectedly.
 3. What is the difference between `StringBuilder` and `StringBuffer`, and which one is faster? Why?
 4. What is the difference between `equals()` and `==`?
+5. What is String interning?
+6. Is String really thread-safe?
