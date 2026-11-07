@@ -43,7 +43,8 @@
 | #   | Static Members                                          | Non-Static Members                                            |
 | --- | ------------------------------------------------------- | ------------------------------------------------------------- |
 | 1   | Static members are declared using the `static` keyword. | Non-static members are declared without the `static` keyword. |
-|     |                                                         |                                                               |
+| 2   | Static members belong to class.                         | Non-static members belong to objects.                         |
+| 3   |                                                         |                                                               |
 |     |                                                         |                                                               |
 
 3. What is a static initialization block, and when would you use one?
