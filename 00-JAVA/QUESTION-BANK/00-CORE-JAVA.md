@@ -54,6 +54,7 @@
 	- Method overriding is based on runtime polymorphism, where JVM decides which method to execute based on the actual object type.
 	- Since static methods are associated with the class, they are resolved at compile time based on the reference class. This is called static binding (early binding).
 	- If a child class writes a static method with the same signature as its parent class, it is called Method Hiding, not Method Overriding.
-- 
-3. What are wrapper classes, and why does Java need them? How do autoboxing and unboxing work?
-4. What are the different ways to create an object in Java?
+6. Can a static method be overloaded?
+7. Can a static method access a non-static method directly?
+8. What are wrapper classes, and why does Java need them? How do autoboxing and unboxing work?
+9. What are the different ways to create an object in Java?
