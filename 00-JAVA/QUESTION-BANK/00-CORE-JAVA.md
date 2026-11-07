@@ -62,10 +62,10 @@
 8. What are wrapper classes, and why does Java need them? How do autoboxing and unboxing work?
 9. What are the different ways to create an object in Java?
 
-| #   | Approach      | Example                                    |
-| --- | ------------- | ------------------------------------------ |
-| 1   | `new` keyword | `Employee e = new Employee(101, "Alpha");` |
-| 2   | Reflection    |                                            |
-| 3   |               |                                            |
-| 4   |               |                                            |
-| 5   |               |                                            |
+| #   | Approach      | Example                                                                                 |
+| --- | ------------- | --------------------------------------------------------------------------------------- |
+| 1   | `new` keyword | `Employee e = new Employee(101, "Alpha");`                                              |
+| 2   | Reflection    | - `Class.newInstance()` (deprecated since Java 9) or `<br>- `Constructor.newInstance()` |
+| 3   |               |                                                                                         |
+| 4   |               |                                                                                         |
+| 5   |               |                                                                                         |
