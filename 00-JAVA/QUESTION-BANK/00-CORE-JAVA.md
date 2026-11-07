@@ -34,6 +34,10 @@
 			- Native methods are methods which are implemented in some other language that Java.
 
 2. Which Java versions have you worked with, and which features did you actually use in your project?
+	- I have primarily worked with Java 17 to develop and run my Maven-based projects. 
+
+	- I have also used Java 8 features such as the Stream API and Optional. Stream API helped me for operations like filtering, mapping and processing collections.
+
 3. What is the difference between static and non-static members in Java?
 4. What is a static initialization block, and when would you use one?
 5. Why can’t a static method be overridden in Java?
