@@ -11,12 +11,14 @@
             "id": "6417be301af2dc4e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/images/collection-hierarchy.drawio.svg"
+                "file": "00-JAVA/QUESTION-BANK/30-COLLECTION-FRAMEWORK.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "collection-hierarchy.drawio"
+              "icon": "lucide-file",
+              "title": "30-COLLECTION-FRAMEWORK"
             }
           }
         ]
@@ -198,6 +200,8 @@
   },
   "active": "6417be301af2dc4e",
   "lastOpenFiles": [
+    "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/images/collection-hierarchy.drawio.svg",
+    "00-JAVA/QUESTION-BANK/images/collection-hierarchy.drawio.svg",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/10-9-KEYS-INTERFACE.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/20-COLLECTION.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/290-NAVIGABLESET-AND-NAVIGABLEMAP.md",
@@ -226,7 +230,6 @@
     "00-JAVA/10-CORE-JAVA/SPRING",
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/20-CONSTRUCTOR/50-COPY-CONSTRUCTOR.md",
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/20-CONSTRUCTOR/45-CONSTRUCTORS-VALIDATION-FAIL-FAST.md",
-    "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/20-CONSTRUCTOR/40-PARAMETERIZED-CONSTRUCTOR.md",
     "00-JAVA/20-ADVANCED-JAVA/10-MAVEN/images/maven-central-repo.png",
     "00-JAVA/20-ADVANCED-JAVA/10-MAVEN/images",
     "00-JAVA/20-ADVANCED-JAVA/10-MAVEN",
@@ -242,7 +245,6 @@
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-inside-thread0.png",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-inside-thread0-main-method.png",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-diagram.drawio.svg",
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-diagram.drawio",
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-demo.drawio.svg"
+    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-diagram.drawio"
   ]
 }
