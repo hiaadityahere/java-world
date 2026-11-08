@@ -6,6 +6,7 @@
 	- **`Collection`** interface is the root interface for three major interfaces: `List`, `Set` and `Queue`.
 		- `List` is used to represent a group of individual objects as a single entity where duplicates are allowed and insertion order must be preserved.
 		- `Set` is used to represent a group of individual object as a single entity where duplicates are not allowed and insertion order not preserved.
+		- `Queue` is used to represent a group of individual objects prior to processing. Usually `Queue` follows FIRST-IN-FIRST-OUT order but based on our requirement we can implement our own priority order also (`PriorityQueue`).
 2. What are the benefits of the Collection Framework over plain arrays?
 3. Why isn’t `Map` part of the `Collection` interface?
 4. What is the difference between `Collection` and `Collections`?
