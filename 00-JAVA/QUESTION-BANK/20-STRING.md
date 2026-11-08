@@ -16,11 +16,11 @@
 	2. Using `new` keyword
 4. **What is the difference between `StringBuilder` and `StringBuffer`, and which one is faster? Why?**
 
-| #   | `StringBuffer`                                                                                                        | `StringBuilder`                                                                                                       |
-| --- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 1   | At a time only one thread is allowed to operate on `StringBuffer` object, Hence `StringBuffer` object is thread-safe. | At a time only one thread is allowed to operate on `StringBuffer` object, Hence `StringBuffer` object is thread-safe. |
-| 2   |                                                                                                                       |                                                                                                                       |
-| 3   |                                                                                                                       |                                                                                                                       |
+| #   | `StringBuffer`                                                                                                        | `StringBuilder`                                                                                                                    |
+| --- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | At a time only one thread is allowed to operate on `StringBuffer` object, Hence `StringBuffer` object is thread-safe. | At a time only multiple threads are allowed to operate on `StringBuilder` object, Hence `StringBuilder` object is not thread-safe. |
+| 2   | Since                                                                                                                 |                                                                                                                                    |
+| 3   |                                                                                                                       |                                                                                                                                    |
 
 3. **What is the difference between `equals()` and `==`?**
 	In Java, == is used to compare the <mark>references</mark> of two String objects, whereas `equals()` method is used to compare their <mark>actual content</mark>.
