@@ -1,7 +1,7 @@
 # Framework basics
 1. Explain the Collection Framework hierarchy. How do `Collection`, `List`, `Set`, `Queue`, `Deque` and `Map` relate to each other?
 	![collection-hierarchy](./images/collection-hierarchy.drawio.svg)
-	**`Collection`** 
+	- **`Collection`** is used to represent a group of individual object as a single entity.
 2. What are the benefits of the Collection Framework over plain arrays?
 3. Why isn’t `Map` part of the `Collection` interface?
 4. What is the difference between `Collection` and `Collections`?
