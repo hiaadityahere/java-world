@@ -2,7 +2,7 @@
 - The main advantage of array is- we can represent multiple values by using single variable so that readability of the code will be improved.
 ## Limitations of `Array`
 1. Arrays are fixed in size that is- once we create an array there is no chance of increasing or decreasing the size based on our requirement. due to this, to use array's concept compulsory we should know the size in advance which may not possible always.
-2. Array can hold only homogeneous data  type element. example- 
+2. Array can hold only homogeneous data type element. example- 
 	![Array-Limitation](array-limitation.drawio.svg)
 
 	we can solve this problem by using `Object` type arrays
