@@ -35,8 +35,7 @@
               "title": "180-MAP"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,10 +213,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d4f13a99a4689689",
+  "active": "6417be301af2dc4e",
   "lastOpenFiles": [
-    "00-JAVA/QUESTION-BANK/30-COLLECTION-FRAMEWORK.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/180-MAP.md",
+    "00-JAVA/QUESTION-BANK/30-COLLECTION-FRAMEWORK.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/270-QUEUE.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/90-SET.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/30-LIST.md",
