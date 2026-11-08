@@ -11,28 +11,18 @@
 		- <mark>Deque</mark> is a child interface of Queue which is double-ended queue means we can insert and remove objects from both ends.
 2. What are the benefits of the Collection Framework over plain arrays?
 
-|#|Arrays|Collections|
-|---|---|---|
-|1|Arrays are fixed in size. Once we create an array, we cannot increase or decrease its size based on our requirements.|Collections are generally growable in nature. Based on our requirements, we can increase or decrease their size dynamically.|
-|2|With respect to memory consumption, arrays are generally more efficient because they have less memory overhead.|With respect to memory consumption, collections generally require more memory due to their internal data structures and additional overhead.|
-|3|With respect to performance, arrays are generally recommended because they provide faster access and have less overhead.|With respect to performance, collections may have additional overhead compared to arrays.|
-|4|Arrays can hold only homogeneous data type elements.|Collections can hold both homogeneous and heterogeneous elements, depending on their declaration and usage.|
-|5|Arrays do not provide the same level of ready-made operations as the Collection Framework. For additional requirements, programmers often have to write code explicitly, which increases programming complexity.|Collection classes are implemented using standard data structures and provide ready-made methods for operations such as insertion, deletion and searching. Programmers can directly use these methods instead of implementing the operations themselves.|
-|6|Arrays can hold both primitive data types and objects.|Collections can hold only objects, not primitive data types. Primitive values are handled using wrapper classes through autoboxing.|
+| #   | Array | Collection |
+| --- | ----- | ---------- |
+| 1   |       |            |
+| 2   |       |            |
+|     |       |            |
 
-### Two technical points to remember
 
-1. Memory and performance: Arrays are generally more memory-efficient and faster, but this is not an absolute rule. Performance depends on the operation and the collection implementation.
-    
-2. Homogeneous and heterogeneous data: Collections declared with generics, such as `List<String>`, enforce a specific element type. Heterogeneous elements are possible when using a common type such as `Object`.
-    
-
-Your six-point structure is suitable for Java interview preparation.
-1. Why isn’t `Map` part of the `Collection` interface?
-2. What is the difference between `Collection` and `Collections`?
-3. What is the difference between `Iterable`, `Iterator` and `Collection`?
-4. What are generics in collections, and what is type erasure?
-5. Which collections have you used in your project, and why did you choose them?
+3. Why isn’t `Map` part of the `Collection` interface?
+4. What is the difference between `Collection` and `Collections`?
+5. What is the difference between `Iterable`, `Iterator` and `Collection`?
+6. What are generics in collections, and what is type erasure?
+7. Which collections have you used in your project, and why did you choose them?
 # `List`
 8. What is an ArrayList, and how does it work internally? How does it grow when it is full?
 9. What is the default capacity of an ArrayList, and what is its growth factor?
