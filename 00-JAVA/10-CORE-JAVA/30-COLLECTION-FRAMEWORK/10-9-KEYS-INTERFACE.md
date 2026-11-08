@@ -84,4 +84,4 @@
 >5. `Hashtable` (C)
 >6. `Properties` (C)
 
-![collection-hierarchy](collection-hierarchy.drawio.svg)
+![collection-hierarchy](./images/collection-hierarchy.drawio.svg)
