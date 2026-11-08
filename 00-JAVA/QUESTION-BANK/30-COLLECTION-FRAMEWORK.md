@@ -8,7 +8,7 @@
 		- <mark>Set</mark> is used to represent a group of individual object as a single entity where duplicates are not allowed and insertion order not preserved.
 		- <mark>Queue</mark> is used to represent a group of individual objects prior to processing. Usually `Queue` follows FIRST-IN-FIRST-OUT order but based on our requirement we can implement our own priority order also (`PriorityQueue`).
 		- <mark>Map</mark> is **not** child interface of `Collection`. It is used to represent a group of objects as key-value pair where keys must be unique, but values can be duplicated.
-		- <mark>Deque</mark> is a child interface of Queue which is used to represnt
+		- <mark>Deque</mark> is a child interface of Queue which is double-ended queue means we can insert and remove objects from both ends.
 2. What are the benefits of the Collection Framework over plain arrays?
 3. Why isn’t `Map` part of the `Collection` interface?
 4. What is the difference between `Collection` and `Collections`?
