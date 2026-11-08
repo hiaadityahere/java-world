@@ -20,7 +20,8 @@
 | --- | --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | At a time only one thread is allowed to operate on `StringBuffer` object, Hence `StringBuffer` object is thread-safe. | At a time only multiple threads are allowed to operate on `StringBuilder` object, Hence `StringBuilder` object is not thread-safe. |
 | 2   | Since on `StringBuffer` object, only one thread is allowed, therefore its performance is slow.                        | Since on`StringBuilder` multiple objects are allowed, therefore its performance is fast.                                           |
-| 3   | Every method in `StringBuffer` is always synchronized.                                                                | Every method in `StringBuilder` is always synchronized.                                                                            |
+| 3   | Every method in `StringBuffer` is always synchronized.                                                                | Every method in `StringBuilder` is not synchronized.                                                                               |
+| 4   | introduced in Java 1.0v.                                                                                              | introduced in Java 1.5v.                                                                                                           |
 
 3. **What is the difference between `equals()` and `==`?**
 	In Java, == is used to compare the <mark>references</mark> of two String objects, whereas `equals()` method is used to compare their <mark>actual content</mark>.
