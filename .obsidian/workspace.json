@@ -11,14 +11,12 @@
             "id": "6417be301af2dc4e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/10-9-KEYS-INTERFACE.md",
-                "mode": "source",
-                "source": false
+                "file": "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/images/collection-hierarchy.drawio.svg"
               },
-              "icon": "lucide-file",
-              "title": "10-9-KEYS-INTERFACE"
+              "icon": "lucide-image",
+              "title": "collection-hierarchy.drawio"
             }
           }
         ]
@@ -83,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.70001220703125
+    "width": 440.70001220703125
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -200,10 +198,10 @@
   },
   "active": "6417be301af2dc4e",
   "lastOpenFiles": [
+    "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/10-9-KEYS-INTERFACE.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/20-COLLECTION.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/290-NAVIGABLESET-AND-NAVIGABLEMAP.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/300-COLLECTIONS.md",
-    "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/10-9-KEYS-INTERFACE.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/00-INTRODUCTION.md",
     "00-JAVA/QUESTION-BANK/90-JDBC.md",
     "00-JAVA/QUESTION-BANK/images",
