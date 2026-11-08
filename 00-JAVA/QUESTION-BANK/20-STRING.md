@@ -16,9 +16,11 @@
 	2. Using `new` keyword
 4. **What is the difference between `StringBuilder` and `StringBuffer`, and which one is faster? Why?**
 
-| #   | `StringBuffer` | Strin |
-| --- | -------------- | ----- |
-|     |                |       |
+| #   | `StringBuffer`                                                                                                        | `StringBuilder`                                                                                                       |
+| --- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| 1   | At a time only one thread is allowed to operate on `StringBuffer` object, Hence `StringBuffer` object is thread-safe. | At a time only one thread is allowed to operate on `StringBuffer` object, Hence `StringBuffer` object is thread-safe. |
+| 2   |                                                                                                                       |                                                                                                                       |
+| 3   |                                                                                                                       |                                                                                                                       |
 
 3. **What is the difference between `equals()` and `==`?**
 	In Java, == is used to compare the <mark>references</mark> of two String objects, whereas `equals()` method is used to compare their <mark>actual content</mark>.
