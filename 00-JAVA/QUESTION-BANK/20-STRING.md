@@ -32,3 +32,4 @@
 	- if it is there, JVM reuses the reference from the SCP.
 	- If it's not, JVM creates a new String object inside SCP and returns its reference.
 6. **Is String really thread-safe?**
+	Yes, String is thread-safe because of immutability. 
