@@ -5,7 +5,7 @@
 	- **`Collection`** provides a set of interfaces and classes to store and manage groups of objects.
 	- **`Collection`** interface is the root interface for three major interfaces: `List`, `Set` and `Queue`.
 		- `List` is used to represent a group of individual objects as a single entity where duplicates are allowed and insertion order must be preserved.
-		- `Set` 
+		- `Set` is used to represent a group of individual object as a single entity where duplicates are not allowed and insertion order not preserved.
 2. What are the benefits of the Collection Framework over plain arrays?
 3. Why isn’t `Map` part of the `Collection` interface?
 4. What is the difference between `Collection` and `Collections`?
