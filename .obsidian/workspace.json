@@ -35,7 +35,8 @@
               "title": "00-INTRODUCTION"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,10 +214,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6417be301af2dc4e",
+  "active": "d4f13a99a4689689",
   "lastOpenFiles": [
-    "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/00-INTRODUCTION.md",
     "00-JAVA/QUESTION-BANK/30-COLLECTION-FRAMEWORK.md",
+    "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/00-INTRODUCTION.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/20-COLLECTION.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/10-9-KEYS-INTERFACE.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/270-QUEUE.md",

@@ -11,12 +11,6 @@
 		- <mark>Deque</mark> is a child interface of Queue which is double-ended queue means we can insert and remove objects from both ends.
 2. What are the benefits of the Collection Framework over plain arrays?
 
-| #   | Array | Collection |
-| --- | ----- | ---------- |
-| 1   |       |            |
-| 2   |       |            |
-|     |       |            |
-
 
 3. Why isn’t `Map` part of the `Collection` interface?
 4. What is the difference between `Collection` and `Collections`?
