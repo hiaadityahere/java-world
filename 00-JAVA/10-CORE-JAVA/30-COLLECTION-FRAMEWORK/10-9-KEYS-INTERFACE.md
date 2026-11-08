@@ -11,7 +11,7 @@
 ## 1. `Collection` (I)
 1. If we want to represent a group of individual object as a single entity then we should go for **`Collection`**.
 2. Collection interface defines the most common methods which are applicable for any collection object.
-3. In general collection interface is considered as root interface of Collection Framework.
+3. In general, collection interface is considered as root interface of Collection Framework.
 4. There is no concrete class which implement collection interface directly.
 ### Difference `Collection` & `Collections`
 

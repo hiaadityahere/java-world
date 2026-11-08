@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "30-COLLECTION-FRAMEWORK"
             }
+          },
+          {
+            "id": "d4f13a99a4689689",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/10-9-KEYS-INTERFACE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10-9-KEYS-INTERFACE"
+            }
           }
         ]
       }
@@ -83,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.70001220703125,
-    "collapsed": true
+    "width": 440.70001220703125
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -201,17 +214,17 @@
   },
   "active": "6417be301af2dc4e",
   "lastOpenFiles": [
+    "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/10-9-KEYS-INTERFACE.md",
+    "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/00-INTRODUCTION.md",
+    "00-JAVA/QUESTION-BANK/30-COLLECTION-FRAMEWORK.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/images/collection-hierarchy.drawio.svg",
     "00-JAVA/QUESTION-BANK/images/collection-hierarchy.drawio.svg",
-    "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/10-9-KEYS-INTERFACE.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/20-COLLECTION.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/290-NAVIGABLESET-AND-NAVIGABLEMAP.md",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/300-COLLECTIONS.md",
-    "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/00-INTRODUCTION.md",
     "00-JAVA/QUESTION-BANK/90-JDBC.md",
     "00-JAVA/QUESTION-BANK/images",
     "00-JAVA/QUESTION-BANK/Untitled.md",
-    "00-JAVA/QUESTION-BANK/30-COLLECTION-FRAMEWORK.md",
     "00-JAVA/QUESTION-BANK/20-STRING.md",
     "00-JAVA/QUESTION-BANK/00-CORE-JAVA.md",
     "00-JAVA/QUESTION-BANK/10-MEMORY-MANAGEMENT-AND-GARBAGE-COLLECTION.md",
@@ -245,7 +258,6 @@
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method.drawio",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-inside-thread0.png",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-inside-thread0-main-method.png",
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-diagram.drawio.svg",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-diagram.drawio"
   ]
 }
