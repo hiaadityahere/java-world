@@ -32,4 +32,4 @@
 	- if it is there, JVM reuses the reference from the SCP.
 	- If it's not, JVM creates a new String object inside SCP and returns its reference.
 6. **Is String really thread-safe?**
-	Yes, String is thread-safe because of immutability. Once a String object is created, we cannot change its content. If we try to modify it, then instead of changing the original object. 
+	Yes, String is thread-safe because of immutability. Once a String object is created, we cannot change its content. If we try to modify it, then instead of changing the original object. Even multiple thread safely shares the same String object.
