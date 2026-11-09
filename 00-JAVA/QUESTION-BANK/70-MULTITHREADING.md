@@ -120,7 +120,7 @@
 	Whereas, when we call `run()` method directly then it behaves like a normal method call and will execute in the current thread stack.
 ## 3. Thread life cycle and control
 
-17. Explain the thread life cycle and what causes each state transition.
+17. **Explain the thread life cycle and what causes each state transition.**
 
 	Java has six thread states: NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING and TERMINATED.
 
@@ -133,7 +133,7 @@
 	- If a thread tries to enter a synchronized block but the required lock is held by another thread, it enters the BLOCKED state.
 	- If a thread waits for another thread to perform some action, it enters the WAITING state. If it waits for a specified amount of time, it enters the TIMED_WAITING state.
 	- Finally, when the run() method completes its execution or terminates due to an uncaught exception, the thread enters the TERMINATED state.
-18. What is the difference between the `BLOCKED`, `WAITING` and `TIMED_WAITING` states?
+18. **What is the difference between the `BLOCKED`, `WAITING` and `TIMED_WAITING` states?**
 19. What does `join()` do? When would you use it?
 20. What is the difference between `sleep()` and `wait()`?
 21. What does `yield()` do, and how does it differ from `sleep()`?
