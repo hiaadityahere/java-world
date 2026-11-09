@@ -48,7 +48,7 @@
 	- It is the starting point of execution in a standard Java application.
 	- We can create additional threads from the main thread.
 7. **What happens when main thread finishes while other threads are still running?**
-	
+	If the main thread finishes its execution while other threads are still running, the JVM does not terminate immediately. It waits for all remaining threads to complete their execution.
 8. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
 9. **What is thread priority? Is it reliable across platforms?**
 
