@@ -28,7 +28,8 @@
 	- Context switching is expensive because whenever the CPU switches from one process or thread to another, it has to save the current execution state and load the next execution state. During this time, the CPU is not performing actual application work.
 4. **What is the difference between concurrency and parallelism?**
 	Concurrency is where multiple tasks are executing during overlapping periods of time where they use single CPU core one after another.
-	Whereas Parallelism means 
+	Whereas Parallelism means multiple tasks are executing at the same time by using multiple CPU cores.
+	Example: 
 5. **What are the advantages and disadvantages of multithreading?**
 6. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
 7. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
