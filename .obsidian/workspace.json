@@ -35,7 +35,8 @@
               "title": "30-THREAD"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,10 +213,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6417be301af2dc4e",
+  "active": "d4f13a99a4689689",
   "lastOpenFiles": [
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/30-THREAD.md",
     "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
+    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/30-THREAD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/10-INTRODUCTION.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/60-RECOMMENDED-WAY-OF-CREATING-THREAD.md",

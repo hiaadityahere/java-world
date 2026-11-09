@@ -5,13 +5,14 @@
 	> - Within a process, <mark>a smallest unit of execution</mark> is called a **Thread**.
 	> - Within a process, Threads share process's memory space and system resources.
 	> - In Java, every program has at least one Thread: the **`main` thread**.
-2. **What is the difference between a process, a thread and a task?**
+2. **What is the difference between a process, a thread?**
 	
 
-| #   | `Process`                                          | `Thread`                                                               | `Task`     |
-| --- | -------------------------------------------------- | ---------------------------------------------------------------------- | ---------- |
-| 1   | A program under execution is called a **Process**. | Within a process, a smallest unit of execution is called a **Thread**. | A general  |
-|     |                                                    |                                                                        |            |
+| #   | `Process`                                                | `Thread`                                                               |
+| --- | -------------------------------------------------------- | ---------------------------------------------------------------------- |
+| 1   | A program under execution is called a **Process**.       | Within a process, a smallest unit of execution is called a **Thread**. |
+| 2   | A Process has its own memory space and system resources. |                                                                        |
+|     |                                                          |                                                                        |
 
 1. **What is the difference between multitasking and multithreading?**
 2. **What is context switching, and why is it expensive?**
