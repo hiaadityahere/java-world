@@ -26,9 +26,8 @@
 
 1. **What is context switching, and why is it expensive?**
 	- Context switching is a mechanism in which the CPU switches its execution from one process or one thread to another.
-
 	- Basically, when the CPU switches from one process to another, the operating system saves the current state of the running process, Then it loads the saved state of another process and resumes its execution.
-	- 
+	- Context switching is expensive because whenever the CPU switches from one process or thread to another, it has to save the current execution state and load the next execution state. During this time, the CPU is not performing actual application work.
 2. **What is the difference between concurrency and parallelism?**
 3. **What are the advantages and disadvantages of multithreading?**
 4. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
