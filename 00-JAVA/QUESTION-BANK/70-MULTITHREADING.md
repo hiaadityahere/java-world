@@ -1,20 +1,155 @@
+# Multithreading Interview Questions (3 YOE Backend Developer)
+
+## 1. Threading basics
+
 1. What is a thread in Java?
 2. What is the difference between a process, a thread and a task?
 3. What is the difference between multitasking and multithreading?
-4. What is context switching?
-5. How do you create your own thread? 
-6. Which is better for creating a thread: extending `Thread` or implementing `Runnable`?
-7. What is the difference between `Runnable` and `Callable`?
-8. Why don’t we call `run()` directly when we want multithreading?
-9. Why can’t we call `start()` twice on a thread, and which exception is thrown?
-10. Explain the thread life cycle.
-11. What is synchronization?
-12. What is the difference between a synchronized method and a synchronized block?
-13. What is an object lock, what is its purpose, and who uses it?
-14. What is a class-level lock, and why do we need it?
-15. Which situations can cause a race condition?
-16. What is inter-thread communication?
-17. Why are `wait()`, `notify()` and `notifyAll()` defined in `Object` and not in `Thread`?
-18. What is the difference between `sleep()` and `wait()`?
-19. What is `ExecutorService` in Java?
-20. What are the different types of thread pools?
+4. What is context switching, and why is it expensive?
+5. What is the difference between concurrency and parallelism?
+6. What are the advantages and disadvantages of multithreading?
+7. What is the main thread in Java? What happens when it finishes while other threads are still running?
+8. What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.
+9. What is thread priority? Is it reliable across platforms?
+
+## 2. Creating and running threads
+
+10. How do you create your own thread?
+11. Which is better for creating a thread: extending `Thread` or implementing `Runnable`?
+12. What is the difference between `Runnable` and `Callable`?
+13. Why don't we call `run()` directly when we want multithreading?
+14. Why can't we call `start()` twice on a thread, and which exception is thrown?
+15. Can you create a thread using a lambda expression? Why does that work?
+16. What is the difference between `start()` and `run()` in terms of the call stack?
+
+## 3. Thread life cycle and control
+
+17. Explain the thread life cycle and what causes each state transition.
+18. What is the difference between the `BLOCKED`, `WAITING` and `TIMED_WAITING` states?
+19. What does `join()` do? When would you use it?
+20. What is the difference between `sleep()` and `wait()`?
+21. What does `yield()` do, and how does it differ from `sleep()`?
+22. How do you stop a thread safely? Why are `stop()` and `suspend()` deprecated?
+23. How does thread interruption work? What does `interrupt()` do when a thread is sleeping or waiting?
+24. Why does `Thread.sleep()` require a try-catch block or a `throws` clause?
+25. What is an uncaught exception handler for a thread? What happens when a thread throws an unhandled exception?
+
+## 4. Synchronization and locks
+
+26. What is synchronization, and why do we need it?
+27. What is a race condition, and which situations can cause one?
+28. What is a critical section?
+29. What is the difference between a synchronized method and a synchronized block? Which would you prefer and why?
+30. What is an object lock (monitor), what is its purpose, and who acquires it?
+31. What is a class-level lock, and why do we need it?
+32. What is the difference between an object lock and a class lock? Can two threads run a static synchronized method and an instance synchronized method at the same time?
+33. What is reentrancy? Is `synchronized` reentrant?
+34. If a thread holds a lock and calls another synchronized method on the same object, what happens?
+35. Can a constructor be synchronized? Can a variable be synchronized?
+36. Is a `synchronized` block on a `String` literal or an `Integer` safe? Why or why not?
+37. What is the difference between a synchronized collection and a concurrent collection?
+
+## 5. The Java Memory Model, `volatile` and atomicity
+
+38. What is the Java Memory Model?
+39. What does the `volatile` keyword do? What problem does it solve?
+40. What is the difference between `volatile` and `synchronized`?
+41. Does `volatile` make `count++` thread-safe? Why or why not?
+42. What is the happens-before relationship?
+43. What are visibility, atomicity and ordering issues in multithreading?
+44. What is instruction reordering, and how do `volatile` and `synchronized` prevent problems from it?
+45. What is double-checked locking in a Singleton, and why is `volatile` required?
+46. What are atomic classes (`AtomicInteger`, `AtomicReference`)? How do they work internally (CAS)?
+47. What is Compare-And-Swap, and what is the ABA problem?
+48. What is the difference between `AtomicInteger` and a synchronized counter? When would you use each?
+49. What is `LongAdder`, and when is it better than `AtomicLong`?
+
+## 6. Inter-thread communication
+
+50. What is inter-thread communication?
+51. Why are `wait()`, `notify()` and `notifyAll()` defined in `Object` and not in `Thread`?
+52. Why must `wait()` and `notify()` be called from a synchronized context? What happens if they aren't?
+53. What is the difference between `notify()` and `notifyAll()`? When can `notify()` cause problems?
+54. What are spurious wakeups, and why should `wait()` be called inside a loop?
+55. Does `wait()` release the lock? Does `sleep()` release it?
+56. How would you implement the producer-consumer problem using `wait()` and `notify()`?
+57. How would you implement producer-consumer using a `BlockingQueue`? Which approach do you prefer in production?
+58. Where did you use the producer-consumer pattern in your project?
+
+## 7. Deadlock, livelock and starvation
+
+59. What is a deadlock? What are the four conditions required for it?
+60. Write a program that creates a deadlock.
+61. How do you detect a deadlock in a running application (thread dump, `jstack`, `ThreadMXBean`)?
+62. How do you prevent or avoid deadlocks (lock ordering, `tryLock` with timeout)?
+63. What is a livelock?
+64. What is thread starvation, and what causes it?
+65. How do you read a thread dump? What would you look for in a production hang?
+
+## 8. Executor framework and thread pools
+
+66. What is `ExecutorService` in Java, and why is it preferred over creating threads manually?
+67. What are the different types of thread pools (`newFixedThreadPool`, `newCachedThreadPool`, `newSingleThreadExecutor`, `newScheduledThreadPool`)?
+68. What is the difference between `execute()` and `submit()`?
+69. What are the core parameters of `ThreadPoolExecutor` (core size, max size, queue, keep-alive, rejection policy)?
+70. In what order does a `ThreadPoolExecutor` create threads and queue tasks?
+71. What are the rejection policies, and which one would you choose?
+72. What are the problems with `newFixedThreadPool` and `newCachedThreadPool` in production (unbounded queue, unbounded threads)?
+73. How do you size a thread pool for CPU-bound and I/O-bound tasks?
+74. What is the difference between `shutdown()` and `shutdownNow()`? What is `awaitTermination()`?
+75. What is `ScheduledExecutorService`? How does `scheduleAtFixedRate` differ from `scheduleWithFixedDelay`?
+76. What is `ForkJoinPool`, and what is work stealing?
+77. What happens if a task submitted to an executor throws an exception?
+
+## 9. Future and CompletableFuture
+
+78. What is a `Future`? What are its limitations?
+79. What is the difference between `Future.get()` blocking and a timeout version?
+80. What is `CompletableFuture`, and how does it improve on `Future`?
+81. What is the difference between `thenApply`, `thenCompose` and `thenCombine`?
+82. How do you run several service calls in parallel and combine the results (`allOf`, `anyOf`)? Use an example like fetching order, payment and inventory data.
+83. How do you handle exceptions in a `CompletableFuture` chain (`exceptionally`, `handle`)?
+84. Which thread pool does `CompletableFuture.supplyAsync()` use by default? Why might you pass your own executor?
+
+## 10. Locks API and synchronizers
+
+85. What is the difference between `synchronized` and `ReentrantLock`?
+86. What are `tryLock()`, `lockInterruptibly()` and fair locks in `ReentrantLock`?
+87. What is a `Condition`, and how does it relate to `wait()`/`notify()`?
+88. What is `ReadWriteLock`, and when would it help?
+89. What is `StampedLock`, and what is optimistic reading?
+90. What is a `CountDownLatch`? Give a use case such as service startup checks.
+91. What is the difference between `CountDownLatch` and `CyclicBarrier`?
+92. What is a `Semaphore`? How would you use one to limit concurrent access to an external payment gateway?
+93. What are `Phaser` and `Exchanger`?
+
+## 11. ThreadLocal and concurrent collections
+
+94. What is `ThreadLocal`, and where is it used (user context, `SimpleDateFormat`, transaction context)?
+95. Can `ThreadLocal` cause a memory leak in a thread pool? How do you prevent it?
+96. What is the difference between `HashMap`, `Hashtable`, `Collections.synchronizedMap` and `ConcurrentHashMap`?
+97. How does `ConcurrentHashMap` achieve thread safety in Java 8?
+98. What is `CopyOnWriteArrayList`, and when is it a good choice?
+99. What are `BlockingQueue` implementations, and how do they differ (`ArrayBlockingQueue`, `LinkedBlockingQueue`, `PriorityBlockingQueue`, `SynchronousQueue`)?
+100. What is the difference between `ConcurrentLinkedQueue` and `LinkedBlockingQueue`?
+
+## 12. Modern concurrency
+
+101. What are virtual threads in Java 21, and what problem do they solve?
+102. How do virtual threads differ from platform threads? When would they not help?
+103. What is structured concurrency?
+104. What is the difference between parallel streams and an executor? When can `parallelStream()` hurt performance?
+
+## 13. Scenarios and coding
+
+105. Two threads increment a shared counter 1000 times each, and the result is less than 2000. Why, and how would you fix it?
+106. How would you make a Singleton class thread-safe? Compare eager, synchronized method, double-checked locking, and the holder class approach.
+107. Write a program to print odd and even numbers using two threads in sequence.
+108. Write a program to print numbers 1 to 10 using three threads in round-robin order.
+109. Implement a thread-safe bounded buffer or blocking queue.
+110. Implement a simple rate limiter, or limit an `OrderService` to N concurrent requests.
+111. How would you process 10,000 orders in parallel and wait for all to finish?
+112. Your production service slows down under load and CPU is at 100%. How do you investigate thread-related causes?
+113. Your application's thread pool is exhausted and requests are timing out. How do you diagnose and fix it?
+114. How do you ensure thread safety in a Spring Boot application (singleton beans, shared state, request-scoped data)?
+115. Where did you use multithreading, executors or `CompletableFuture` in your project?
