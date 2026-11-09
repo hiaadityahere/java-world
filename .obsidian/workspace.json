@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/230-FULL-THREAD-LIFYCYCLE.md",
+                "file": "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "230-FULL-THREAD-LIFYCYCLE"
+              "title": "40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,11 +214,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6417be301af2dc4e",
+  "active": "d4f13a99a4689689",
   "lastOpenFiles": [
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/230-FULL-THREAD-LIFYCYCLE.md",
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
     "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
+    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/30-THREAD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/MCQS.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/200-INTER-THREAD-COMMUNICATION.md",

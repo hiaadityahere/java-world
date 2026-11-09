@@ -112,7 +112,7 @@
 
 	Yes, we can create a thread using a lambda expression because the `Runnable` interface is a functional interface. It contains only one abstract method, which is `run()`.
 
-	Lambda Expression is responsible to give the implementation of that abstract method. and in this way, we don't need to 
+	Lambda Expression is responsible to give the implementation of that abstract method. and in this way, we don't need to implement the `Runnable` interface explicitly by creating a class.
 17. **What is the difference between `start()` and `run()` in terms of the call stack?**
 
 ## 3. Thread life cycle and control
