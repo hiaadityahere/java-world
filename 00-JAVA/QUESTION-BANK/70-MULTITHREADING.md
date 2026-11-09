@@ -121,6 +121,8 @@
 ## 3. Thread life cycle and control
 
 17. Explain the thread life cycle and what causes each state transition.
+
+	Java has six thread states: NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING and TERMINATED.
 18. What is the difference between the `BLOCKED`, `WAITING` and `TIMED_WAITING` states?
 19. What does `join()` do? When would you use it?
 20. What is the difference between `sleep()` and `wait()`?
