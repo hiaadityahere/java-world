@@ -8,11 +8,12 @@
 2. **What is the difference between a process, a thread?**
 	
 
-| #   | `Process`                                                | `Thread`                                                                                  |
-| --- | -------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 1   | A program under execution is called a **Process**.       | Within a process, a smallest unit of execution is called a **Thread**.                    |
-| 2   | A Process has its own memory space and system resources. | Within a process, Threads share process's memory space and system resources.              |
-| 3   | Process can communi                                      | Threads can easily communicate to each other because they share a process's memory space. |
+| #   | `Process`                                                                                  | `Thread`                                                                                  |
+| --- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| 1   | A program under execution is called a **Process**.                                         | Within a process, a smallest unit of execution is called a **Thread**.                    |
+| 2   | A Process has its own memory space and system resources.                                   | Within a process, Threads share process's memory space and system resources.              |
+| 3   | Process can communicate with each other which is called IPC (Inter-Process Communication). | Threads can easily communicate to each other because they share a process's memory space. |
+| 4   | rashing of one process                                                                     |                                                                                           |
 
 1. **What is the difference between multitasking and multithreading?**
 2. **What is context switching, and why is it expensive?**
