@@ -22,12 +22,21 @@
 	![define-a-thread](define-a-thread.drawio.svg)
 
 11. **Which is better for creating a thread: extending `Thread` or implementing `Runnable`?**
-	
-12. **What is the difference between `Runnable` and `Callable`?**
-13. **Why don't we call `run()` directly when we want multithreading?**
-14. **Why can't we call `start()` twice on a thread, and which exception is thrown?**
-15. **Can you create a thread using a lambda expression? Why does that work?**
-16. **What is the difference between `start()` and `run()` in terms of the call stack?**
+	We can define a Thread in the following two ways:
+	1. By extending `Thread` class
+	2. By implementing `Runnable` interface
+	Among the two ways of defining a thread, the `implements Runnable` approach is recommended.
+
+	In the first appraoch, our class always extend `Thread` class, so there is no chance of extending any other class. Hence, we are missing **inheritance benefit**.
+
+	But in the second appraoch, while implementing `Runnable` interface, we can extend any other class. Hence, we won't miss any inheritance benefit.
+
+	> Because of above reason `implements Runnable` interface approach is **recommended** than extending `Thread` class.
+11. **What is the difference between `Runnable` and `Callable`?**
+12. **Why don't we call `run()` directly when we want multithreading?**
+13. **Why can't we call `start()` twice on a thread, and which exception is thrown?**
+14. **Can you create a thread using a lambda expression? Why does that work?**
+15. **What is the difference between `start()` and `run()` in terms of the call stack?**
 
 ## 3. Thread life cycle and control
 
