@@ -35,8 +35,7 @@
               "title": "40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.1000061035156
+    "width": 295.1000061035156,
+    "collapsed": true
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -213,10 +213,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d4f13a99a4689689",
+  "active": "6417be301af2dc4e",
   "lastOpenFiles": [
-    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
+    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/30-THREAD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/MCQS.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/230-FULL-THREAD-LIFYCYCLE.md",
