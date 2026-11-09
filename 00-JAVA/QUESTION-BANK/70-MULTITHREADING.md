@@ -2,9 +2,9 @@
 
 ## 1. Threading basics
 1. **What is a thread in Java?**
-	> - Within a process, <mark>a smallest unit of execution</mark> is called a **Thread**.
-	> - Within a process, Threads share process's memory space and system resources.
-	> - In Java, every program has at least one Thread: the **`main` thread**.
+	 - Within a process, <mark>a smallest unit of execution</mark> is called a **Thread**.
+	 - Within a process, Threads share process's memory space and system resources.
+	 - In Java, every program has at least one Thread: the **`main` thread**.
 2. **What is the difference between a process, a thread?**
 
 | #   | `Process`                                                                                  | `Thread`                                                                                  |
@@ -59,9 +59,9 @@
 		- 1 is **Min Priority**
 		- 5 is **Normal Priority**
 		- 10 is **Max Priority**.
-		- 
 	- The thread which is having highest priority will get the chance first.
 	- If two threads having same priority then we can't expect the exact execution order. it depends on Thread-Scheduler.
+	- The default priority only for the **main** thread is 5. but for all remaining threads, the default priority will be inheriting from parent to child.
 ## 2. Creating and running threads
 10. **How do you create your own thread?**
 	We can define a Thread in the following two ways:
