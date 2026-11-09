@@ -33,6 +33,10 @@
 	- Concurrency can be achieve by Threads and ExecutorService Framework.
 	- Parallelism can be achieve by by `parallelStream()` or a ForkJoinPool.
 5. **What are the advantages and disadvantages of multithreading?**
+	Advantage:
+	- Better CPU Utilization
+	- Improved Performance
+	- 
 6. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
 7. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
 8. **What is thread priority? Is it reliable across platforms?**
