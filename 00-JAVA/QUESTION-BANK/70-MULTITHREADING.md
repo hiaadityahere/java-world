@@ -16,7 +16,6 @@
 | 4   | Generally, crashing of one process can not crash to another processes.                     | Crashing of one thread may affect an entire proccess.                                     |
 
 1. **What is the difference between multitasking and multithreading?**
-	
 
 | #   | multitasking                                                                                                                                              | multithreading                                                                                                                                                      |
 | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
