@@ -16,12 +16,18 @@
 | 4   | Generally, crashing of one process can not crash to another processes.                     | Crashing of one thread may affect an entire proccess.                                     |
 
 1. **What is the difference between multitasking and multithreading?**
-2. **What is context switching, and why is it expensive?**
-3. **What is the difference between concurrency and parallelism?**
-4. **What are the advantages and disadvantages of multithreading?**
-5. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
-6. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
-7. **What is thread priority? Is it reliable across platforms?**
+	
+
+| #   | multitasking |     |
+| --- | ------------ | --- |
+|     |              |     |
+
+1. **What is context switching, and why is it expensive?**
+2. **What is the difference between concurrency and parallelism?**
+3. **What are the advantages and disadvantages of multithreading?**
+4. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
+5. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
+6. **What is thread priority? Is it reliable across platforms?**
 
 ## 2. Creating and running threads
 10. **How do you create your own thread?**
