@@ -27,7 +27,7 @@
 	- Basically, when the CPU switches from one process to another, the operating system saves the current state of the running process, Then it loads the saved state of another process and resumes its execution.
 	- Context switching is expensive because whenever the CPU switches from one process or thread to another, it has to save the current execution state and load the next execution state. During this time, the CPU is not performing actual application work.
 4. **What is the difference between concurrency and parallelism?**
-	Concurrency 
+	Concurrency where multiple tasks are executing during overlapping periods o
 5. **What are the advantages and disadvantages of multithreading?**
 6. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
 7. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
