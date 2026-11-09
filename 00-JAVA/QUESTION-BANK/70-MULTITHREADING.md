@@ -36,7 +36,13 @@
 	Advantage:
 	- Better CPU Utilization
 	- Improved Performance
-	- 
+	- Resource Sharing
+	- Faster Context Switching
+	Disadvantage:
+	- Race Condition
+	- Deadlock
+	- Synchronization Overhead
+	- Difficulty in Debugging
 6. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
 7. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
 8. **What is thread priority? Is it reliable across platforms?**
