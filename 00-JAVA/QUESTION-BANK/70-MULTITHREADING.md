@@ -107,7 +107,7 @@
 
 	We cannot call the `start()` method twice on the same thread because a thread can be started only once during its lifecycle. 
 
-	Once we start a thread, it goes into its Thread lifecycle which is from a NEW state to TERMINATE state.
+	Once we start a thread, it goes into its Thread lifecycle. and once it terminates, we can not start the same thread again. and if we try to start it again, we will get 
 16. **Can you create a thread using a lambda expression? Why does that work?**
 17. **What is the difference between `start()` and `run()` in terms of the call stack?**
 
