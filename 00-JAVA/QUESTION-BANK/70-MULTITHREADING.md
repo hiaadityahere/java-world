@@ -28,12 +28,12 @@
 	- Context switching is a mechanism in which the CPU switches its execution from one process or one thread to another.
 
 	- Basically, when the CPU switches from one process to another, the operating system saves the current state of the running process, Then it loads the saved state of another process and resumes its execution.
-	
-1. **What is the difference between concurrency and parallelism?**
-2. **What are the advantages and disadvantages of multithreading?**
-3. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
-4. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
-5. **What is thread priority? Is it reliable across platforms?**
+	- 
+2. **What is the difference between concurrency and parallelism?**
+3. **What are the advantages and disadvantages of multithreading?**
+4. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
+5. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
+6. **What is thread priority? Is it reliable across platforms?**
 
 ## 2. Creating and running threads
 10. **How do you create your own thread?**
