@@ -17,7 +17,8 @@
 ## 2. Creating and running threads
 10. **How do you create your own thread?**
 	We can define a Thread in the following two ways:
-	1. By extending `Thread` classBy implementing `Runnable` interface
+	1. By extending `Thread` class
+	2. By implementing `Runnable` interface
 
 
 11. **Which is better for creating a thread: extending `Thread` or implementing `Runnable`?**
