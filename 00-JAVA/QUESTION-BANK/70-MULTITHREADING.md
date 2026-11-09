@@ -98,6 +98,11 @@
 
 
 14. **Why don't we call `run()` directly when we want multithreading?**
+
+	We don't call the `run()` method directly because it behaves like a normal method call and executes in the current thread.
+
+	If we want to achieve multithreading, we should call the `start()` method  which creates a new thread of execution 
+
 15. **Why can't we call `start()` twice on a thread, and which exception is thrown?**
 16. **Can you create a thread using a lambda expression? Why does that work?**
 17. **What is the difference between `start()` and `run()` in terms of the call stack?**
