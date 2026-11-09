@@ -52,10 +52,8 @@
 8. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
 	- The Threads which are executing in the background are called **Daemon Threads**. Example: Garbage Collector etc.
 	- The main objective of Daemon Thread is **to provide support for non-Daemon Threads** (main-Thread).
-	When all user threads finish their execution, the JVM can shut down even if daemon threads are still running.
-
-The main objective of Daemon Thread is **to provide support for non-Daemon Threads** (main-Thread).
-3. **What is thread priority? Is it reliable across platforms?**
+	- When all user threads finish their execution, the JVM can shut down even if daemon threads are still running.
+9. **What is thread priority? Is it reliable across platforms?**
 
 ## 2. Creating and running threads
 10. **How do you create your own thread?**
