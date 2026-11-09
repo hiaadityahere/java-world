@@ -47,7 +47,8 @@
 	When we run a java application, JVM creates and starts a main thread which is responsible for executing `main()` method.
 	- It is the starting point of execution in a standard Java application.
 	- We can create additional threads from the main thread.
-7. What happens when `main()` thread finishes while other threads are still running?
+7. **What happens when main thread finishes while other threads are still running?**
+	
 8. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
 9. **What is thread priority? Is it reliable across platforms?**
 
