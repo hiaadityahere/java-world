@@ -8,6 +8,11 @@
 2. **What is the difference between a process, a thread?**
 	
 
+|     |     |
+| --- | --- |
+|     |     |
+
+
 | #   | `Process`                                                                                  | `Thread`                                                                                  |
 | --- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | 1   | A program under execution is called a **Process**.                                         | Within a process, a smallest unit of execution is called a **Thread**.                    |
