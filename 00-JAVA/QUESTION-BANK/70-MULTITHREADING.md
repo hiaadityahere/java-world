@@ -117,7 +117,7 @@
 
 	When we call the `start()` method, JVM creates a new thread with its own separate stack which will be responsible to call `run()` method in its own stack.
 
-	Whereas, when we call `run()` method directly, it behaves like a normal method call
+	Whereas, when we call `run()` method directly then it behaves like a normal method call and will execute in the current thread stack.
 ## 3. Thread life cycle and control
 
 17. Explain the thread life cycle and what causes each state transition.
