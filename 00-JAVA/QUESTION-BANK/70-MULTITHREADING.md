@@ -15,14 +15,13 @@
 9. **What is thread priority? Is it reliable across platforms?**
 
 ## 2. Creating and running threads
-
-10. How do you create your own thread?
-11. Which is better for creating a thread: extending `Thread` or implementing `Runnable`?
-12. What is the difference between `Runnable` and `Callable`?
-13. Why don't we call `run()` directly when we want multithreading?
-14. Why can't we call `start()` twice on a thread, and which exception is thrown?
-15. Can you create a thread using a lambda expression? Why does that work?
-16. What is the difference between `start()` and `run()` in terms of the call stack?
+10. **How do you create your own thread?**
+11. **Which is better for creating a thread: extending `Thread` or implementing `Runnable`?**
+12. **What is the difference between `Runnable` and `Callable`?**
+13. **Why don't we call `run()` directly when we want multithreading?**
+14. **Why can't we call `start()` twice on a thread, and which exception is thrown?**
+15. **Can you create a thread using a lambda expression? Why does that work?**
+16. **What is the difference between `start()` and `run()` in terms of the call stack?**
 
 ## 3. Thread life cycle and control
 
