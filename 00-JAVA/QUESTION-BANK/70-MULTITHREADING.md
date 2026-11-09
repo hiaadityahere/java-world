@@ -18,10 +18,11 @@
 1. **What is the difference between multitasking and multithreading?**
 	
 
-| #   | multitasking                                                                                                                | multithreading                                                                                                                     |
-| --- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Executing several tasks simultaneously where each task is a separate independent program (process), is called multitasking. | Executing several tasks simultaneously where each task is a separate independent part of the same program, is called multitasking. |
-| 2   | Example-                                                                                                                    |                                                                                                                                    |
+| #   | multitasking                                                                                                                                              | multithreading                                                                                                                     |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Executing several tasks simultaneously where each task is a separate independent program (process), is called multitasking.                               | Executing several tasks simultaneously where each task is a separate independent part of the same program, is called multitasking. |
+| 2   | **Example-** While typing a Java program in editor, we can listen audio songs from same system and at the same time we can download a file from internet. |                                                                                                                                    |
+| 3   | Multitasking is best suitable at **OS-Level**.                                                                                                            |                                                                                                                                    |
 
 1. **What is context switching, and why is it expensive?**
 2. **What is the difference between concurrency and parallelism?**
