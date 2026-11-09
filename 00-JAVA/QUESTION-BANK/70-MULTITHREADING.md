@@ -92,7 +92,9 @@
 | 1   | `Runnable` is a functional interface available in `java.lang` package. | `Callable` is a functional interface available in `java.util.concurrent` package. |
 | 2   | It contains an abstract method `run()`.                                | It contains an abstract method `call()`.                                          |
 | 3   | The `run()` method has a `void` return type.                           | The `call()` method returns a value of type `V`.                                  |
-| 4   |                                                                        |                                                                                   |
+| 4   | It cannot return a result directly.                                    | It can return a result.                                                           |
+| 5   | It cannot declare checked exceptions.                                  | It can declare checked exceptions.                                                |
+| 6   | It can be executed using the `Thread` class or `ExecutorService`.      | It is generally executed using `ExecutorService`.                                 |
 
 
 14. **Why don't we call `run()` directly when we want multithreading?**
