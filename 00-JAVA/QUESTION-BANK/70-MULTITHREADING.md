@@ -115,6 +115,7 @@
 	Lambda Expression is responsible to give the implementation of that abstract method. and in this way, we don't need to implement the `Runnable` interface explicitly by creating a class.
 17. **What is the difference between `start()` and `run()` in terms of the call stack?**
 
+	When we call the `start()` method, JVM creates a new thread with its own separate stack which will be re
 ## 3. Thread life cycle and control
 
 17. Explain the thread life cycle and what causes each state transition.
