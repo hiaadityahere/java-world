@@ -106,6 +106,8 @@
 15. **Why can't we call `start()` twice on a thread, and which exception is thrown?**
 
 	We cannot call the `start()` method twice on the same thread because a thread can be started only once during its lifecycle. 
+
+	Once we start a thread, it goes into 
 16. **Can you create a thread using a lambda expression? Why does that work?**
 17. **What is the difference between `start()` and `run()` in terms of the call stack?**
 
