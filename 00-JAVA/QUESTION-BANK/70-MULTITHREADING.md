@@ -85,6 +85,13 @@
 
 	> Because of above reason `implements Runnable` interface approach is **recommended** than extending `Thread` class.
 13. **What is the difference between `Runnable` and `Callable`?**
+
+
+| #   |     |     |
+| --- | --- | --- |
+|     |     |     |
+
+
 14. **Why don't we call `run()` directly when we want multithreading?**
 15. **Why can't we call `start()` twice on a thread, and which exception is thrown?**
 16. **Can you create a thread using a lambda expression? Why does that work?**
