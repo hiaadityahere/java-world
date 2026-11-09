@@ -110,8 +110,9 @@
 	Once we start a thread, it goes into its Thread lifecycle. and once it terminates, we can not start the same thread again. and if we try to start it again, we will get `IllegalThreadStateException`.
 16. **Can you create a thread using a lambda expression? Why does that work?**
 
+	Yes, we can create a thread using a lambda expression because the `Runnable` interface is a functional interface. It contains only one abstract method, which is `run()`.
 
-
+	Lambda Expression is re
 17. **What is the difference between `start()` and `run()` in terms of the call stack?**
 
 ## 3. Thread life cycle and control
