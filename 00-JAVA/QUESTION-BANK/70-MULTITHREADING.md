@@ -6,12 +6,6 @@
 	> - Within a process, Threads share process's memory space and system resources.
 	> - In Java, every program has at least one Thread: the **`main` thread**.
 2. **What is the difference between a process, a thread?**
-	
-
-|     |     |
-| --- | --- |
-|     |     |
-
 
 | #   | `Process`                                                                                  | `Thread`                                                                                  |
 | --- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
@@ -20,7 +14,8 @@
 | 3   | Process can communicate with each other which is called IPC (Inter-Process Communication). | Threads can easily communicate to each other because they share a process's memory space. |
 | 4   | Generally, crashing of one process can not crash to another processes.                     | Crashing of one thread may affect an entire proccess.                                     |
 
-1. **What is the difference between multitasking and multithreading?**
+3. **What is the difference between multitasking and multithreading?**
+	
 
 | #   | multitasking                                                                                                                                              | multithreading                                                                                                                                                      |
 | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
