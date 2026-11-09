@@ -43,10 +43,13 @@
 	- Deadlock
 	- Synchronization Overhead
 	- Difficulty in Debugging
-6. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
+6. **What is the main thread in Java?**
 	When we run a java application, JVM creates and starts a main thread which is responsible for executing `main()` method.
-7. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
-8. **What is thread priority? Is it reliable across platforms?**
+	- It is the starting point of execution in a standard Java application.
+	- We can create additional threads from the main thread.
+7. What happens when `main()` thread finishes while other threads are still running?
+8. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
+9. **What is thread priority? Is it reliable across platforms?**
 
 ## 2. Creating and running threads
 10. **How do you create your own thread?**
