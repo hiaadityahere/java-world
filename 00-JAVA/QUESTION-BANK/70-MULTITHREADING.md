@@ -1,17 +1,18 @@
 # Multithreading Interview Questions (3 YOE Backend Developer)
 
 ## 1. Threading basics
-1. What is a thread in Java?
-	> - Within a process, a smallest unit of execution is called a **Thread**.
-	> - 
-2. What is the difference between a process, a thread and a task?
-3. What is the difference between multitasking and multithreading?
-4. What is context switching, and why is it expensive?
-5. What is the difference between concurrency and parallelism?
-6. What are the advantages and disadvantages of multithreading?
-7. What is the main thread in Java? What happens when it finishes while other threads are still running?
-8. What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.
-9. What is thread priority? Is it reliable across platforms?
+1. **What is a thread in Java?**
+	> - Within a process, <mark>a smallest unit of execution</mark> is called a **Thread**.
+	> - Within a process, Threads share process's memory space and system resources.
+	> - In Java, every program has at least one Thread: the **`main` thread**.
+2. **What is the difference between a process, a thread and a task?**
+3. **What is the difference between multitasking and multithreading?**
+4. **What is context switching, and why is it expensive?**
+5. **What is the difference between concurrency and parallelism?**
+6. **What are the advantages and disadvantages of multithreading?**
+7. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
+8. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
+9. **What is thread priority? Is it reliable across platforms?**
 
 ## 2. Creating and running threads
 
