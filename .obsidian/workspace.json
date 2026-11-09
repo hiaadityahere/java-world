@@ -35,8 +35,7 @@
               "title": "90-THREAD-PRIORITIES"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.1000061035156
+    "width": 295.1000061035156,
+    "collapsed": true
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -213,8 +213,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d4f13a99a4689689",
+  "active": "6417be301af2dc4e",
   "lastOpenFiles": [
+    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/90-THREAD-PRIORITIES.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/220-DAEMON-THREADS.md",
     "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/10-INTRODUCTION.md",
@@ -244,7 +245,6 @@
     "00-JAVA/QUESTION-BANK/Untitled.md",
     "00-JAVA/QUESTION-BANK/20-STRING.md",
     "00-JAVA/QUESTION-BANK/00-CORE-JAVA.md",
-    "00-JAVA/QUESTION-BANK/10-MEMORY-MANAGEMENT-AND-GARBAGE-COLLECTION.md",
     "00-JAVA/QUESTION-BANK",
     "00-JAVA/10-CORE-JAVA/SPRING",
     "00-JAVA/20-ADVANCED-JAVA/10-MAVEN/images/maven-central-repo.png",
