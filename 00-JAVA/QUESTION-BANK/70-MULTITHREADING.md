@@ -8,11 +8,11 @@
 2. **What is the difference between a process, a thread?**
 	
 
-| #   | `Process`                                                | `Thread`                                                               |
-| --- | -------------------------------------------------------- | ---------------------------------------------------------------------- |
-| 1   | A program under execution is called a **Process**.       | Within a process, a smallest unit of execution is called a **Thread**. |
-| 2   | A Process has its own memory space and system resources. |                                                                        |
-|     |                                                          |                                                                        |
+| #   | `Process`                                                | `Thread`                                                                     |
+| --- | -------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| 1   | A program under execution is called a **Process**.       | Within a process, a smallest unit of execution is called a **Thread**.       |
+| 2   | A Process has its own memory space and system resources. | Within a process, Threads share process's memory space and system resources. |
+| 3   |                                                          |                                                                              |
 
 1. **What is the difference between multitasking and multithreading?**
 2. **What is context switching, and why is it expensive?**
