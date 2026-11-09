@@ -127,6 +127,12 @@
 	NEW ➜ RUNNABLE ➜ BLOCKED ➜ RUNNABLE ➜ ... ➜ TERMINATED
 	
 	NEW ➜ RUNNABLE ➜ WAITING / TIMED_WAITING ➜ RUNNABLE ➜ ... ➜ TERMINATED
+
+	Initially, when we create a thread object, it enters the NEW state. When we call the start() method, it moves to the RUNNABLE state, where it is ready for execution or currently executing.
+
+	- If a thread tries to enter a synchronized block but the required lock is held by another thread, it enters the BLOCKED state.
+	- If a thread waits for another thread to perform some action, it enters the WAITING state. If it waits for a specified amount of time, it enters the TIMED_WAITING state.
+	- Finally, when the run() method completes its execution or terminates due to an uncaught exception, the thread enters the TERMINATED state.
 18. What is the difference between the `BLOCKED`, `WAITING` and `TIMED_WAITING` states?
 19. What does `join()` do? When would you use it?
 20. What is the difference between `sleep()` and `wait()`?
