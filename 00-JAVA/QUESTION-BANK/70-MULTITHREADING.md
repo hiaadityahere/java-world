@@ -6,13 +6,20 @@
 	> - Within a process, Threads share process's memory space and system resources.
 	> - In Java, every program has at least one Thread: the **`main` thread**.
 2. **What is the difference between a process, a thread and a task?**
-3. **What is the difference between multitasking and multithreading?**
-4. **What is context switching, and why is it expensive?**
-5. **What is the difference between concurrency and parallelism?**
-6. **What are the advantages and disadvantages of multithreading?**
-7. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
-8. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
-9. **What is thread priority? Is it reliable across platforms?**
+	
+
+| #   | `Process` | `Thread` | `Task` |
+| --- | --------- | -------- | ------ |
+| 1   |           |          |        |
+|     |           |          |        |
+
+1. **What is the difference between multitasking and multithreading?**
+2. **What is context switching, and why is it expensive?**
+3. **What is the difference between concurrency and parallelism?**
+4. **What are the advantages and disadvantages of multithreading?**
+5. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
+6. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
+7. **What is thread priority? Is it reliable across platforms?**
 
 ## 2. Creating and running threads
 10. **How do you create your own thread?**
