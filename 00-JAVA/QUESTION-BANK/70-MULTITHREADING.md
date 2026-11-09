@@ -124,7 +124,9 @@
 
 	Java has six thread states: NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING and TERMINATED.
 
-	NEW ➜ RUNNABLE ➜ BLOCKED ➜ RUNNABLE
+	NEW ➜ RUNNABLE ➜ BLOCKED ➜ RUNNABLE ➜ ... ➜ TERMINATED
+	
+	NEW ➜ RUNNABLE ➜ WAITING / TIMED_WAITING ➜ RUNNABLE ➜ ... ➜ TERMINATED
 18. What is the difference between the `BLOCKED`, `WAITING` and `TIMED_WAITING` states?
 19. What does `join()` do? When would you use it?
 20. What is the difference between `sleep()` and `wait()`?
