@@ -16,22 +16,21 @@
 
 3. **What is the difference between multitasking and multithreading?**
 	
-
 | #   | multitasking                                                                                                                                              | multithreading                                                                                                                                                      |
 | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Executing several tasks simultaneously where each task is a separate independent program (process), is called multitasking.                               | Executing several tasks simultaneously where each task is a separate independent part of the same program, is called multithreading.                                |
 | 2   | **Example-** While typing a Java program in editor, we can listen audio songs from same system and at the same time we can download a file from internet. | **Example:** While using an e-commerce application, one thread can handle order processing, another can process payments, and another can send email notifications. |
 | 3   | Multitasking is best suitable at **OS-Level**.                                                                                                            | Multithreading is best suitable at **Programmatic-Level**.                                                                                                          |
 
-1. **What is context switching, and why is it expensive?**
+3. **What is context switching, and why is it expensive?**
 	- Context switching is a mechanism in which the CPU switches its execution from one process or one thread to another.
 	- Basically, when the CPU switches from one process to another, the operating system saves the current state of the running process, Then it loads the saved state of another process and resumes its execution.
 	- Context switching is expensive because whenever the CPU switches from one process or thread to another, it has to save the current execution state and load the next execution state. During this time, the CPU is not performing actual application work.
-2. **What is the difference between concurrency and parallelism?**
-3. **What are the advantages and disadvantages of multithreading?**
-4. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
-5. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
-6. **What is thread priority? Is it reliable across platforms?**
+4. **What is the difference between concurrency and parallelism?**
+5. **What are the advantages and disadvantages of multithreading?**
+6. **What is the main thread in Java? What happens when it finishes while other threads are still running?**
+7. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
+8. **What is thread priority? Is it reliable across platforms?**
 
 ## 2. Creating and running threads
 10. **How do you create your own thread?**
