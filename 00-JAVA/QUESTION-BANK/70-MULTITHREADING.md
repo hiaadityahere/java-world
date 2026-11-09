@@ -87,9 +87,12 @@
 13. **What is the difference between `Runnable` and `Callable`?**
 
 
-| #   |     |     |
-| --- | --- | --- |
-|     |     |     |
+| #   | `Runnable`                                                             | `Callable`                                                                        |
+| --- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| 1   | `Runnable` is a functional interface available in `java.lang` package. | `Callable` is a functional interface available in `java.util.concurrent` package. |
+| 2   | It contains an abstract method `run()`.                                | It contains an abstract method `call()`.                                          |
+| 3   | The `run()` method has a `void` return type.                           | The `call()` method returns a value of type `V`.                                  |
+| 4   |                                                                        |                                                                                   |
 
 
 14. **Why don't we call `run()` directly when we want multithreading?**
