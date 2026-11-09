@@ -19,9 +19,10 @@
 	We can define a Thread in the following two ways:
 	1. By extending `Thread` class
 	2. By implementing `Runnable` interface
-
+	![define-a-thread](define-a-thread.drawio.svg)
 
 11. **Which is better for creating a thread: extending `Thread` or implementing `Runnable`?**
+	
 12. **What is the difference between `Runnable` and `Callable`?**
 13. **Why don't we call `run()` directly when we want multithreading?**
 14. **Why can't we call `start()` twice on a thread, and which exception is thrown?**
