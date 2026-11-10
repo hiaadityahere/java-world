@@ -12,7 +12,7 @@
 | 4   | A class can exist without an object.                                                                               | An object can't exist without a class.                                                                                                                                            |
 | 5   | A class does not allocate memory when it is created.                                                               | An object allocates memory when it is created.                                                                                                                                    |
 | 6   | Class metadata is stored in Metaspace.                                                                             | An object are stored inside heap memeory.                                                                                                                                         |
-| 7   | A ClassLoader is responsible for load a class into JVM.                                                            | A JVM is responsible to allocate memory for objects inside                                                                                                                        |
+| 7   | A **ClassLoader** is responsible for load a class into **JVM**.                                                    | A JVM is responsible to allocate memory for objects inside **Heap**.                                                                                                              |
 
 
 5. Can you give a real-world example of encapsulation?
