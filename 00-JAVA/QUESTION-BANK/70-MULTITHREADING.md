@@ -158,7 +158,7 @@
 | #   | `sleep()`                                      | `wait()`                                          |
 | --- | ---------------------------------------------- | ------------------------------------------------- |
 | 1   | `sleep()` is a static method of `Thread` class | `wait()` is an instance method of `Object` class. |
-| 2   |                                                |                                                   |
+| 2   | `sleep()` method is                            |                                                   |
 
 
 20. **What does `yield()` do, and how does it differ from `sleep()`?**
