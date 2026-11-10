@@ -9,7 +9,7 @@
 | 1   | A Class is a **blueprint** / **template** for creating objects. <br>or we can say- Class is definition of objects. | An Object is an instance of a class that represents a real-world entity with **Properties (Variables)** and **Behaviors (Methods)**. |
 | 2   | A class can be created by using `class` keyword followed by **ClassName** written in Pascal Case.                  | In general, an Object can be created by using `new` keyword.                                                                         |
 | 3   | A class can exist without an object.                                                                               | An object can't exist without a class.                                                                                               |
-| 4   | A class does not consume                                                                                           |                                                                                                                                      |
+| 4   | A class does not consume memory when it is created.                                                                | An object consume memor                                                                                                              |
 
 
 5. Can you give a real-world example of encapsulation?
