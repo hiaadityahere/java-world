@@ -49,8 +49,7 @@
               "title": "00-OOP"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.1000061035156
+    "width": 295.1000061035156,
+    "collapsed": true
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -227,10 +227,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89c219c70cc2ca7d",
+  "active": "6417be301af2dc4e",
   "lastOpenFiles": [
-    "00-JAVA/QUESTION-BANK/40-OOP-CONCEPT.md",
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/00-INTRODUCTION-TO-OOP/00-OOP.md",
+    "00-JAVA/QUESTION-BANK/40-OOP-CONCEPT.md",
     "00-JAVA/QUESTION-BANK/00-CORE-JAVA.md",
     "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/230-FULL-THREAD-LIFYCYCLE.md",

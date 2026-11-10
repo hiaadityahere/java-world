@@ -4,12 +4,12 @@
 4. what is the difference between class and object?
 
 	
-| #   | Class                                                                                                              | Object |
-| --- | ------------------------------------------------------------------------------------------------------------------ | ------ |
-| 1   | A Class is a **blueprint** / **template** for creating objects. <br>or we can say- Class is definition of objects. |        |
-| 2   |                                                                                                                    |        |
-| 3   |                                                                                                                    |        |
-| 4   |                                                                                                                    |        |
+| #   | Class                                                                                                              | Object                                                                                                                               |
+| --- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | A Class is a **blueprint** / **template** for creating objects. <br>or we can say- Class is definition of objects. | An Object is an instance of a class that represents a real-world entity with **Properties (Variables)** and **Behaviors (Methods)**. |
+| 2   | A class can be created by using `class` keyword followed by **ClassName** written in Pascal Case.                  |                                                                                                                                      |
+| 3   |                                                                                                                    |                                                                                                                                      |
+| 4   |                                                                                                                    |                                                                                                                                      |
 
 
 5. Can you give a real-world example of encapsulation?
