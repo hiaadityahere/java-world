@@ -134,6 +134,16 @@
 	- If a thread waits for another thread to perform some action, it enters the WAITING state. If it waits for a specified amount of time, it enters the TIMED_WAITING state.
 	- Finally, when the run() method completes its execution or terminates due to an uncaught exception, the thread enters the TERMINATED state.
 18. **What is the difference between the `BLOCKED`, `WAITING` and `TIMED_WAITING` states?**
+
+
+| #   | `BLOCKED`                                                                                                                                                                                                                                                                                                        | `WAITING` | `TIMED_WAITING` |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | --------------- |
+| 1   | Whenever multiple threads are trying to execute a synchronized instance method on the same object then JVM decides which thread is allowed for execution. Whichever thread is getting scheduled to execute that synchronized method will acquire that Object Lock, while other threads will be in Blocked State. |           |                 |
+|     |                                                                                                                                                                                                                                                                                                                  |           |                 |
+|     |                                                                                                                                                                                                                                                                                                                  |           |                 |
+
+
+
 19. **What does `join()` do? When would you use it?**
 20. **What is the difference between `sleep()` and `wait()`?**
 21. **What does `yield()` do, and how does it differ from `sleep()`?**
