@@ -4,13 +4,13 @@
 4. what is the difference between class and object?
 
 	
-| #   | Class                                                                                                              | Object                                                                                                                               |
-| --- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1   | A Class is a **blueprint** / **template** for creating objects. <br>or we can say- Class is definition of objects. | An Object is an instance of a class that represents a real-world entity with **Properties (Variables)** and **Behaviors (Methods)**. |
-| 2   | A class can be created by using `class` keyword followed by **ClassName** written in Pascal Case.                  | In general, an Object can be created by using `new` keyword.                                                                         |
-| 3   | There is only one way to define a class, i.e., `class Employee {}`                                                 | There are multiple ways to create an object, such as- `new` Keyword, `clone()`, deserialization, Copy Constructor,                   |
-| 4   | A class can exist without an object.                                                                               | An object can't exist without a class.                                                                                               |
-| 5   | A class does not consume memory when it is created.                                                                | An object consume memory when it is created.                                                                                         |
+| #   | Class                                                                                                              | Object                                                                                                                                                                            |
+| --- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | A Class is a **blueprint** / **template** for creating objects. <br>or we can say- Class is definition of objects. | An Object is an instance of a class that represents a real-world entity with **Properties (Variables)** and **Behaviors (Methods)**.                                              |
+| 2   | A class can be created by using `class` keyword followed by **ClassName** written in Pascal Case.                  | In general, an Object can be created by using `new` keyword.                                                                                                                      |
+| 3   | There is only one way to define a class, i.e., `class Employee {}`                                                 | There are multiple ways to create an object, such as- `new` Keyword, `clone()`, deserialization, Copy Constructor, Using Reflection, Using Factor Methods, Using String literals. |
+| 4   | A class can exist without an object.                                                                               | An object can't exist without a class.                                                                                                                                            |
+| 5   | A class does not consume memory when it is created.                                                                | An object consume memory when it is created.                                                                                                                                      |
 
 
 5. Can you give a real-world example of encapsulation?
