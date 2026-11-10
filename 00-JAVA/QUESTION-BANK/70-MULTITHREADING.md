@@ -141,12 +141,15 @@
 | 1   | Whenever multiple threads are trying to execute a synchronized instance method on the same object then JVM decides which thread is allowed for execution. Whichever thread is getting scheduled to execute that synchronized method will acquire that Object Lock, while other threads will be in Blocked State. | in inter-thread communication, when a Thread which is expecting updation is responsible to call wait() method on that required object then, immediately the Thread will enter into WAITING state in indefinite time. common methods are: `wait()`, `join()` etc. | When a thread waits for a specified amount of time then it will go into `TIMED_WAITING`. Common Methods are: - `Thread.sleep(milliseconds)`, `wait(milliseconds)`, `join(milliseconds)` etc. |
 
 19. **What does `join()` do? When would you use it?**
-20. **What is the difference between `sleep()` and `wait()`?**
-21. **What does `yield()` do, and how does it differ from `sleep()`?**
-22. **How do you stop a thread safely? Why are `stop()` and `suspend()` deprecated?**
-23. **How does thread interruption work? What does `interrupt()` do when a thread is sleeping or waiting?**
-24. **Why does `Thread.sleep()` require a try-catch block or a `throws` clause?**
-25. **What is an uncaught exception handler for a thread? What happens when a thread throws an unhandled exception?**
+	
+	The `join()` method in Java is used when one thread wants to wait for another thread to complete its execution.
+	**Example:** Suppose we have two threads
+19. **What is the difference between `sleep()` and `wait()`?**
+20. **What does `yield()` do, and how does it differ from `sleep()`?**
+21. **How do you stop a thread safely? Why are `stop()` and `suspend()` deprecated?**
+22. **How does thread interruption work? What does `interrupt()` do when a thread is sleeping or waiting?**
+23. **Why does `Thread.sleep()` require a try-catch block or a `throws` clause?**
+24. **What is an uncaught exception handler for a thread? What happens when a thread throws an unhandled exception?**
 
 ## 4. Synchronization and locks
 
