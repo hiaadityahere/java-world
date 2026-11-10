@@ -143,11 +143,15 @@
 19. **What does `join()` do? When would you use it?**
 	
 	The `join()` method in Java is used when one thread wants to wait for another thread to complete its execution.
-	**Example:** Suppose we have two threads
+	
+	**Example:** 
+	
+	Suppose we have two threads
 		- Thread A: Generates a report.
 		- Thread B: Sends an email containing that report.
 		
-		Report must be prepare before sending that email then Thread B has to wait for Thread A to complete its execution and we can achieve this by using `join()`.
+	Report must be prepare before sending that email then Thread B has to wait for Thread A to complete its execution and we can achieve this by using `join()`.
+		
 19. **What is the difference between `sleep()` and `wait()`?**
 20. **What does `yield()` do, and how does it differ from `sleep()`?**
 21. **How do you stop a thread safely? Why are `stop()` and `suspend()` deprecated?**
