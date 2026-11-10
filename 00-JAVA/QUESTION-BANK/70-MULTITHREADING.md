@@ -161,6 +161,9 @@
 | 3   | when `sleep()` method pause the execution of the current thread for a specific time, it does not release the monitor lock held by that thread. | `wait()` method releases the monitor lock of the object. |
 
 20. **What does `yield()` do, and how does it differ from `sleep()`?**
+
+	A yield() method is a static method of Thread class which is used to stop the currently executing thread and will give a chance to other waiting threads of the same priority. If in case there are no waiting threads or if all the waiting threads have low priority then the same thread will continue its execution.
+	
 21. **How do you stop a thread safely? Why are `stop()` and `suspend()` deprecated?**
 22. **How does thread interruption work? What does `interrupt()` do when a thread is sleeping or waiting?**
 23. **Why does `Thread.sleep()` require a try-catch block or a `throws` clause?**
