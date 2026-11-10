@@ -134,13 +134,13 @@
 	- If a thread waits for another thread to perform some action, it enters the WAITING state. If it waits for a specified amount of time, it enters the TIMED_WAITING state.
 	- Finally, when the run() method completes its execution or terminates due to an uncaught exception, the thread enters the TERMINATED state.
 18. **What is the difference between the `BLOCKED`, `WAITING` and `TIMED_WAITING` states?**
-19. What does `join()` do? When would you use it?
-20. What is the difference between `sleep()` and `wait()`?
-21. What does `yield()` do, and how does it differ from `sleep()`?
-22. How do you stop a thread safely? Why are `stop()` and `suspend()` deprecated?
-23. How does thread interruption work? What does `interrupt()` do when a thread is sleeping or waiting?
-24. Why does `Thread.sleep()` require a try-catch block or a `throws` clause?
-25. What is an uncaught exception handler for a thread? What happens when a thread throws an unhandled exception?
+19. **What does `join()` do? When would you use it?**
+20. **What is the difference between `sleep()` and `wait()`?**
+21. **What does `yield()` do, and how does it differ from `sleep()`?**
+22. **How do you stop a thread safely? Why are `stop()` and `suspend()` deprecated?**
+23. **How does thread interruption work? What does `interrupt()` do when a thread is sleeping or waiting?**
+24. **Why does `Thread.sleep()` require a try-catch block or a `throws` clause?**
+25. **What is an uncaught exception handler for a thread? What happens when a thread throws an unhandled exception?**
 
 ## 4. Synchronization and locks
 
