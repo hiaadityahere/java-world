@@ -35,8 +35,7 @@
               "title": "110-YIELD-METHOD"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 397.5,
+    "collapsed": true
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -213,8 +213,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65578f6f82e00836",
+  "active": "a98e6206e5481f23",
   "lastOpenFiles": [
+    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/110-YIELD-METHOD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/130-SLEEP-METHOD.md",
     "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/120-JOIN-METHOD.md",
@@ -240,7 +241,6 @@
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/184-SYNCHRONIZED-INSTANCE-METHODS-ON-DIFFERENT-OBJECTS.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/230-REENTRANTLOCK.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/220-LOCK.md",
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/220-DAEMON-THREADS.md",
     "00-JAVA/QUESTION-BANK/images/define-a-thread.drawio.svg",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/images/collection-hierarchy.drawio.svg",
     "00-JAVA/QUESTION-BANK/images/collection-hierarchy.drawio.svg",
