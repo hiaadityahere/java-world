@@ -153,6 +153,9 @@
 	Report must be prepare before sending that email then Thread B has to wait for Thread A to complete its execution and we can achieve this by using `join()`.
 		
 19. **What is the difference between `sleep()` and `wait()`?**
+
+
+
 20. **What does `yield()` do, and how does it differ from `sleep()`?**
 21. **How do you stop a thread safely? Why are `stop()` and `suspend()` deprecated?**
 22. **How does thread interruption work? What does `interrupt()` do when a thread is sleeping or waiting?**
