@@ -155,10 +155,11 @@
 19. **What is the difference between `sleep()` and `wait()`?**
 
 
-| #   | `sleep()`                                                                                  | `wait()`                                                |
-| --- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------- |
-| 1   | `sleep()` is a static method of `Thread` class                                             | `wait()` is an instance method of `Object` class.       |
-| 2   | `sleep()` method is used to pause the execution of the current thread for a specific time. | `wait()` method is used for inter-thread communication. |
+| #   | `sleep()`                                                                                   | `wait()`                                                |
+| --- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| 1   | `sleep()` is a static method of `Thread` class                                              | `wait()` is an instance method of `Object` class.       |
+| 2   | `sleep()` method is used to pause the execution of the current thread for a specific time.  | `wait()` method is used for inter-thread communication. |
+| 3   | when `sleep()` method pause the execution of the current thread for a specific time, it doe |                                                         |
 
 
 20. **What does `yield()` do, and how does it differ from `sleep()`?**
