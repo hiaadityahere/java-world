@@ -35,8 +35,7 @@
               "title": "120-JOIN-METHOD"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 397.5,
+    "collapsed": true
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -213,10 +213,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "65578f6f82e00836",
+  "active": "a98e6206e5481f23",
   "lastOpenFiles": [
-    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/120-JOIN-METHOD.md",
+    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/200-INTER-THREAD-COMMUNICATION.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/180-SYNCHRONIZED-METHOD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/100-PREVENT-THREAD-EXECUTION.md",
