@@ -17,25 +17,8 @@
 	- Processing the money transfer
 	- Get transaction notification
 ## Identifying the Currently Executing Thread
-```java
-public class IdentifyYourThread {
-
-	public static void main(String[] args) {
-		
-		String threadName = Thread.currentThread().getName(); 
-		
-		System.out.println(
-			"This code is executing by [" + threadName + "] Thread"
-		);// output ➔ This code is executing by [main] Thread
-		
-		System.out.println(
-			"This is my Hello-World Program"
-		);
-	}
-}
-```
 ![recognize-main-thread](./images/recognize-main-thread.png)
-Output
+**Output:** Thread Name: main
 #### `main` Thread
 > When a Java application starts, the **JVM creates and starts the main thread**, which executes the `main()` method.
 ## Defining a Thread
