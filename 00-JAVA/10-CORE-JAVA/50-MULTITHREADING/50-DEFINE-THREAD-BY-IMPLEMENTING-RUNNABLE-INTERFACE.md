@@ -2,6 +2,15 @@
 We can define a thread by implementing `Runnable` (I).
 - **`Runnable` (I)** presents in **`java.lang`** package and it contain only one method- **run()** method.
 	`public abstract void run();`
+
+Create our own Thread by implementing Runnable interface
+
+1. Create a class that implements the `Runnable` interface.
+2. override the `run()` method of the `Runnable` interface.
+3. Write the task/code that the thread should execute inside the `run()` method.
+4. Create an instance of the class that implemented `Runnable` interface.
+5. Pass the **Runnable** object to the **Thread** class constructor.
+6. Call the start() method on the Thread object to start a new thread.
 ![thread-creation-by-implements-Runnable-interface](thread-creation-by-implements-Runnable-interface.drawio.svg)
 We will get mixed output and we can't tell exact output.
 ## Case Studies
