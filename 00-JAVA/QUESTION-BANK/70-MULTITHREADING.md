@@ -172,6 +172,13 @@
 ## 4. Synchronization and locks
 
 26. What is synchronization, and why do we need it?
+	- `synchronized` defines as- **One Thread at a time on a particular shared object.**
+	- `synchronized` is a keyword which is applicable for methods and blocks only.
+	- If a method or block is declared with `synchronized` then - <mark>At a time only one Thread is allow to execute that method or block on a particular shared object</mark>.
+	- The main advantage of `synchronized` keyword is- **"It resolves data inconsistency problem"**.
+	- The main disadvantage of `synchronized` keyword is- **"It increases waiting time of Threads and creates performance problems."**
+	
+		Hence, if there is no specific requirement then never recommended to use `synchronized` keyword.
 27. What is a race condition, and which situations can cause one?
 28. What is a critical section?
 29. What is the difference between a synchronized method and a synchronized block? Which would you prefer and why?
