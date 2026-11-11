@@ -217,7 +217,7 @@
 
 	![race-condition](./images/race-condition.drawio.svg)
 27. What is a critical section?
-28. What is the difference between a synchronized method and a synchronized block? Which would you prefer and why?
+28. What is the difference between a synchronized method and a synchronized block?Which would you prefer and why?
 29. What is an object lock (monitor), what is its purpose, and who acquires it?
 30. What is a class-level lock, and why do we need it?
 31. What is the difference between an object lock and a class lock? Can two threads run a static synchronized method and an instance synchronized method at the same time?
