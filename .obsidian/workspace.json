@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a3be803664c735b0",
+            "id": "bc570b9746bd1543",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "bc570b9746bd1543",
+            "id": "a3be803664c735b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -213,16 +213,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc570b9746bd1543",
+  "active": "a3be803664c735b0",
   "lastOpenFiles": [
-    "00-JAVA/QUESTION-BANK/00-CORE-JAVA.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/30-THREAD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
+    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
+    "00-JAVA/QUESTION-BANK/00-CORE-JAVA.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/recognize-main-thread.png",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/Pasted image 20261111103743.png",
     "Pasted image 20261111103743.png",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/110-YIELD-METHOD.md",
-    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/130-SLEEP-METHOD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/120-JOIN-METHOD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/200-INTER-THREAD-COMMUNICATION.md",
