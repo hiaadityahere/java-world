@@ -35,8 +35,7 @@
               "title": "70-MULTITHREADING"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,13 +212,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "999fb585ba881c0e",
+  "active": "bc570b9746bd1543",
   "lastOpenFiles": [
+    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/QUESTION-BANK/images/full-thread-lifecycle.drawio.svg",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/230-FULL-THREAD-LIFYCYCLE.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/30-THREAD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
-    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/50-DEFINE-THREAD-BY-IMPLEMENTING-RUNNABLE-INTERFACE.md",
     "00-JAVA/QUESTION-BANK/00-CORE-JAVA.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/recognize-main-thread.png",
@@ -255,7 +254,6 @@
     "00-JAVA/20-ADVANCED-JAVA/10-MAVEN",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR/images/step-4.png",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR/images/step-3.png",
-    "00-JAVA/20-ADVANCED-JAVA/00-JAR/images/step-1.png",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR/images",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR",
     "00-JAVA/20-ADVANCED-JAVA",
