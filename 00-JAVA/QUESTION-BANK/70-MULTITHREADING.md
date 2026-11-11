@@ -236,6 +236,22 @@
 >	- non-synchronized static method of that class
 >	[Lock concept is implements based on object but not based on method].
 30. What is a class-level lock, and why do we need it?
+
+	- `synchronized` keyword on Static Method works on **Class-Level Lock**.
+	- In java every class gets **exactly one class lock**.
+
+	If a thread wants to execute a synchronized static method then...
+	- it needs to acquire the class lock — that is, the Object Lock held by the Class object itself (`ClassName.class`), not any instance's lock.
+	- At the same time if multiple threads are trying to execute a synchronized static method on the same class, then the JVM decides which thread is allowed for execution (order not guaranteed).
+	- Whichever thread is getting scheduled to execute that synchronized static method, will acquire that Class lock, while other threads will be in Blocked State.
+	- Once the thread finishes execution (normally or via exception), it releases the Class object's lock.
+>	[!NOTE]
+>	Once a Thread acquires **class lock** to execute static synchronized method, then other Threads are not allowed to execute any other `static synchronized` method of that same class simultaneously.
+>	
+>	But remaining Threads are allowed to execute:
+>	- `synchronized` instance method of an object of that class
+>	- non-synchronized instance methods of an object of that class
+>	- non-synchronized static methods of that class
 31. What is the difference between an object lock and a class lock? Can two threads run a static synchronized method and an instance synchronized method at the same time?
 32. What is reentrancy? Is `synchronized` reentrant?
 33. If a thread holds a lock and calls another synchronized method on the same object, what happens?
