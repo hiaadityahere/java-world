@@ -228,7 +228,6 @@
 	- At the same time, if multiple threads are trying to execute a synchronized instance method on the same object, then the JVM decides which thread is allowed for execution (order not guaranteed).
 	- Whichever thread is getting scheduled to execute that synchronized method will acquire that Object Lock, while other threads will be in Blocked State.
 	- Once the thread finishes execution (normally or via exception), it releases the Object Lock.
->	[!NOTE]
 >	When a Thread executes any `synchronized` instance method, other Threads are not allowed to execute any `synchronized` instance method on that **same object** simultaneously.
 >	
 >	But at the same time, other Threads are allowed to execute:
