@@ -22,7 +22,7 @@
 #### `main` Thread
 > When a Java application starts, the **JVM creates and starts the main thread**, which executes the `main()` method.
 
-In Java, when a process is created, it starts with 1 thread and that initial thread is known as <mark>main thread</mark> and from that we can create multiple thread to perform
+- In Java, when a process is created, it starts with 1 thread and that initial thread is known as <mark>main thread</mark> and from that we can create multiple threads to perform task concurrently.
 ## Defining a Thread
 >We can define a Thread in the following two ways:
 >1. [By extending `Thread` class](40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md)
