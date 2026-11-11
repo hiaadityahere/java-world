@@ -12,7 +12,7 @@
 			- Each Stack Frame contains a Local Variable Array, Operand Stack and method execution-related information.
 			- The local variable array stores - primitive data types, object reference and array reference. 
 			- once the method execution completes, its Stack Frame is popped from the stack (LIFO — Last In, First Out).
-			- If Stack memory gets exhausted, JVM throws StackOverflowError.
+			- If Stack memory gets exhausted, JVM throws `StackOverflowError`.
 		2. **Heap**
 			- Heap is a shared runtime memory area where JVM stores actual objects and arrays. stack memory is responsible to store only references but Heap is the area where actual objects stores.
 			- Heap also includes the actual array object (array reference -> stack, actual object -> Heap) similarly String reference -> stack and actual object inside Heap
