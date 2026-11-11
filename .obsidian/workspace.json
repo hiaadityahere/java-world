@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5,
-    "collapsed": true
+    "width": 397.5
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -201,6 +200,8 @@
   },
   "active": "a3be803664c735b0",
   "lastOpenFiles": [
+    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/recognize-main-thread.png",
+    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/Pasted image 20261111103743.png",
     "Pasted image 20261111103743.png",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/110-YIELD-METHOD.md",
     "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
@@ -243,9 +244,7 @@
     "00-JAVA/20-ADVANCED-JAVA/00-JAR/images",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR",
     "00-JAVA/20-ADVANCED-JAVA",
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method.drawio.svg",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method.drawio",
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-inside-thread0.png",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/yield-method-diagram.drawio"
   ]
 }

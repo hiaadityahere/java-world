@@ -34,7 +34,8 @@ public class IdentifyYourThread {
 	}
 }
 ```
-![[Pasted image 20261111103743.png]]
+![recognize-main-thread](./images/recognize-main-thread.png)
+Output
 #### `main` Thread
 > When a Java application starts, the **JVM creates and starts the main thread**, which executes the `main()` method.
 ## Defining a Thread
