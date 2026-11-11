@@ -126,11 +126,11 @@
 	
 	NEW ➜ RUNNABLE ➜ WAITING / TIMED_WAITING ➜ RUNNABLE ➜ ... ➜ TERMINATED
 
-	Initially, when we create a thread object, it enters into the NEW state. When we call the start() method, it moves to the RUNNABLE state, where it is ready for execution or currently executing.
-
-	- Whenever multiple threads are trying to execute a synchronized instance method on the same object then JVM decides which thread is allowed for execution. Whichever thread is getting scheduled to execute that synchronized method will acquire that Object Lock, while other threads will be in BLOCKED State.
-	- If a thread waits for another thread to perform some action, it enters the WAITING state. If it waits for a specified amount of time, it enters the TIMED_WAITING state.
-	- Finally, when the run() method completes its execution or terminates due to an uncaught exception, the thread enters the TERMINATED state.
+	- Initially, when we create a thread object, it enters into the <mark>NEW</mark> state. When we call the start() method, it moves to the RUNNABLE state, <mark>where</mark> it is ready for execution or currently executing.
+	- Whenever multiple threads are trying to execute a synchronized instance method on the same object then JVM decides which thread is allowed for execution. Whichever thread is getting scheduled to execute that synchronized method will acquire that Object Lock, while other threads will be in <mark>BLOCKED</mark> State.
+	- If a thread waits for another thread to perform some action, it enters the <mark>WAITING</mark> state.
+	- When a thread waits for a specified amount of time then it will go into <mark>TIMED_WAITING</mark> state.
+	- Finally, when the run() method completes its execution or terminates due to an uncaught exception, the thread enters the <mark>TERMINATED</mark> state.
 
 	![full-thread-lifecycle](./images/full-thread-lifecycle.drawio.svg)
 18. **What is the difference between the `BLOCKED`, `WAITING` and `TIMED_WAITING` states?**
