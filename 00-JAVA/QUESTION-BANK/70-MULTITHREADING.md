@@ -75,7 +75,7 @@
 	We can define a Thread in the following two ways:
 	1. By extending `Thread` class
 	2. By implementing `Runnable` interface
-	Among the two ways of defining a thread, the `implements Runnable` approach is recommended.
+	From this two way of defining a thread, the `implements Runnable` approach is recommended.
 
 	In the first appraoch, our class always extend `Thread` class, so there is no chance of extending any other class. Hence, we are missing **inheritance benefit**.
 
