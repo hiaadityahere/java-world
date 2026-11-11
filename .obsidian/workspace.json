@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/50-DEFINE-THREAD-BY-IMPLEMENTING-RUNNABLE-INTERFACE.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -35,8 +35,7 @@
               "title": "70-MULTITHREADING"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,11 +212,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a3be803664c735b0",
+  "active": "bc570b9746bd1543",
   "lastOpenFiles": [
+    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/50-DEFINE-THREAD-BY-IMPLEMENTING-RUNNABLE-INTERFACE.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/30-THREAD.md",
-    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
     "00-JAVA/QUESTION-BANK/00-CORE-JAVA.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/recognize-main-thread.png",
