@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/180-SYNCHRONIZED-METHOD.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -45,7 +45,8 @@
               "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,10 +223,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc570b9746bd1543",
+  "active": "999fb585ba881c0e",
   "lastOpenFiles": [
-    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/180-SYNCHRONIZED-METHOD.md",
+    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/186-SYNC-VS-NON-SYNC-METHOD-ACCESS-EXAMPLE-2.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/190-SYNCHRONIZED-BLOCK.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/170-SYNCHRONIZATION.md",

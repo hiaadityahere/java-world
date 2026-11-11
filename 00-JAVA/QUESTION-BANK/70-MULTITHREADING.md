@@ -219,6 +219,23 @@
 27. What is a critical section?
 28. What is the difference between a synchronized method and a synchronized block?Which would you prefer and why?
 29. What is an object lock (monitor), what is its purpose, and who acquires it?
+
+	- `synchronized` keyword on Instance Method works on **Object-Level Lock**.
+	- In java every object gets exactly one object lock.
+
+	If a thread wants to execute a synchronized instance method then…
+	- it needs to acquire that object lock.
+	- At the same time, if multiple threads are trying to execute a synchronized instance method on the same object, then the JVM decides which thread is allowed for execution (order not guaranteed).
+	- Whichever thread is getting scheduled to execute that synchronized method will acquire that Object Lock, while other threads will be in Blocked State.
+	- Once the thread finishes execution (normally or via exception), it releases the Object Lock.
+>	[!NOTE]
+>	When a Thread executes any `synchronized` instance method, other Threads are not allowed to execute any `synchronized` instance method on that **same object** simultaneously.
+>	
+>	But at the same time, other Threads are allowed to execute:
+>	-  non-synchronized instance methods of the same object
+>	- `synchronized` static methods of that class
+>	- non-synchronized static method of that class
+>	[Lock concept is implements based on object but not based on method].
 30. What is a class-level lock, and why do we need it?
 31. What is the difference between an object lock and a class lock? Can two threads run a static synchronized method and an instance synchronized method at the same time?
 32. What is reentrancy? Is `synchronized` reentrant?
