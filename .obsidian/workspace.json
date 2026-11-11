@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "30-THREAD"
             }
+          },
+          {
+            "id": "bc570b9746bd1543",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 397.5,
+    "collapsed": true
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -198,8 +210,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a3be803664c735b0",
+  "active": "bc570b9746bd1543",
   "lastOpenFiles": [
+    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/30-THREAD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/recognize-main-thread.png",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/Pasted image 20261111103743.png",
     "Pasted image 20261111103743.png",
@@ -223,7 +236,6 @@
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/00-INTRODUCTION-TO-OOP/00-OOP.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/60-RECOMMENDED-WAY-OF-CREATING-THREAD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/30-THREAD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/MCQS.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/186-SYNC-VS-NON-SYNC-METHOD-ACCESS-EXAMPLE-2.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/184-SYNCHRONIZED-INSTANCE-METHODS-ON-DIFFERENT-OBJECTS.md",
@@ -240,7 +252,6 @@
     "00-JAVA/20-ADVANCED-JAVA/00-JAR/images/step-4.png",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR/images/step-3.png",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR/images/step-1.png",
-    "00-JAVA/20-ADVANCED-JAVA/00-JAR/images/step-2.png",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR/images",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR",
     "00-JAVA/20-ADVANCED-JAVA",
