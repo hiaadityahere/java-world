@@ -26,10 +26,10 @@
 				- Class hierarchy (inheritance and interfaces)
 			- Metaspace uses Native Memory rather than Java Heap memory.
 			- Metaspace introduced in Java 8, replacing PermGen (Permanent Generation).
-		4. PC Register (Program Counter Register)
+		4. **PC Register (Program Counter Register)**
 			- Each Java thread has its own PC Register.
 			- PC Register stores the next address of the JVM instruction to be executed.
-		5. Native Method Stack
+		5. **Native Method Stack**
 			- The Native Method Stack supports the execution of native methods.
 			- Native methods are methods which are implemented in some other language that Java.
 
