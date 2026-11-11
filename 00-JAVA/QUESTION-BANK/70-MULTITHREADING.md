@@ -126,7 +126,7 @@
 	
 	NEW ➜ RUNNABLE ➜ WAITING / TIMED_WAITING ➜ RUNNABLE ➜ ... ➜ TERMINATED
 
-	Initially, when we create a thread object, it enters the NEW state. When we call the start() method, it moves to the RUNNABLE state, where it is ready for execution or currently executing.
+	Initially, when we create a thread object, it enters into the NEW state. When we call the start() method, it moves to the RUNNABLE state, where it is ready for execution or currently executing.
 
 	- If a thread tries to enter a synchronized block but the required lock is held by another thread, it enters the BLOCKED state.
 	- If a thread waits for another thread to perform some action, it enters the WAITING state. If it waits for a specified amount of time, it enters the TIMED_WAITING state.
