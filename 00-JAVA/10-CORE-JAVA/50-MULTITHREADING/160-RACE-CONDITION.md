@@ -30,7 +30,7 @@ Remaining       = 400 - 700 = -300
 The bank is now in loss.
 This is called a **Race condition**.
 
-![race-condition](race-condition.drawio.svg)
+![race-condition](./images/race-condition.drawio.svg)
 
 > At a particular time (may be in nanosecond level), if multiple threads are trying to access or modify the shared object data then there is a chance that calculation of that object data may not be correct.
 > This condition is called a **Race Condition**.
