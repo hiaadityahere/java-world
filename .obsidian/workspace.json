@@ -49,8 +49,7 @@
               "title": "50-DEFINE-THREAD-BY-IMPLEMENTING-RUNNABLE-INTERFACE"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,10 +227,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "245ab82681e2c502",
+  "active": "bc570b9746bd1543",
   "lastOpenFiles": [
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/50-DEFINE-THREAD-BY-IMPLEMENTING-RUNNABLE-INTERFACE.md",
+    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
     "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/30-THREAD.md",
     "00-JAVA/QUESTION-BANK/00-CORE-JAVA.md",
