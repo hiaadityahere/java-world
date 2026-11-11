@@ -35,7 +35,8 @@
               "title": "70-MULTITHREADING"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,10 +213,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc570b9746bd1543",
+  "active": "999fb585ba881c0e",
   "lastOpenFiles": [
-    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/160-RACE-CONDITION.md",
+    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
+    "00-JAVA/QUESTION-BANK/images/race-condition.drawio.svg",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/170-SYNCHRONIZATION.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/180-SYNCHRONIZED-METHOD.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/140-INTERRUPTION-IN-A-THREAD.md",
@@ -243,7 +245,6 @@
     "00-JAVA/QUESTION-BANK/40-OOP-CONCEPT.md",
     "00-JAVA/10-CORE-JAVA/10-OBJECT-ORIENTED-PROGRAMMING/00-INTRODUCTION-TO-OOP/00-OOP.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/60-RECOMMENDED-WAY-OF-CREATING-THREAD.md",
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/MCQS.md",
     "00-JAVA/QUESTION-BANK/images/define-a-thread.drawio.svg",
     "00-JAVA/10-CORE-JAVA/30-COLLECTION-FRAMEWORK/images/collection-hierarchy.drawio.svg",
     "00-JAVA/QUESTION-BANK/images/collection-hierarchy.drawio.svg",
@@ -254,7 +255,6 @@
     "00-JAVA/20-ADVANCED-JAVA/10-MAVEN/images",
     "00-JAVA/20-ADVANCED-JAVA/10-MAVEN",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR/images/step-4.png",
-    "00-JAVA/20-ADVANCED-JAVA/00-JAR/images/step-3.png",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR/images",
     "00-JAVA/20-ADVANCED-JAVA/00-JAR",
     "00-JAVA/20-ADVANCED-JAVA",
