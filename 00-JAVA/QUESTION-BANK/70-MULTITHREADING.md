@@ -1,5 +1,3 @@
-# Multithreading Interview Questions (3 YOE Backend Developer)
-
 ## 1. Threading basics
 1. **What is a thread in Java?**
 	 - Within a process, <mark>a smallest unit of execution</mark> is called a **Thread**.
