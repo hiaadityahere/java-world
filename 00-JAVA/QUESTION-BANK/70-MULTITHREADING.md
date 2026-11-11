@@ -79,9 +79,9 @@
 
 	In the first appraoch, our class always extend `Thread` class, so there is no chance of extending any other class. Hence, we are missing **inheritance benefit**.
 
-	But in the second appraoch, while implementing `Runnable` interface, we can extend any other class. Hence, we won't miss any inheritance benefit.
+	But in the second approach, where we implement `Runnable` interface, we can extend any other class. Hence, we won't miss any inheritance benefit.
 
-	> Because of above reason `implements Runnable` interface approach is **recommended** than extending `Thread` class.
+	Because of above reason `implements Runnable` interface approach is **recommended** than extending `Thread` class.
 13. **What is the difference between `Runnable` and `Callable`?**
 
 
