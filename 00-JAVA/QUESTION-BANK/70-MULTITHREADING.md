@@ -131,6 +131,8 @@
 	- If a thread tries to enter a synchronized block but the required lock is held by another thread, it enters the BLOCKED state.
 	- If a thread waits for another thread to perform some action, it enters the WAITING state. If it waits for a specified amount of time, it enters the TIMED_WAITING state.
 	- Finally, when the run() method completes its execution or terminates due to an uncaught exception, the thread enters the TERMINATED state.
+
+	![full-thread-lifecycle](./images/full-thread-lifecycle.drawio.svg)
 18. **What is the difference between the `BLOCKED`, `WAITING` and `TIMED_WAITING` states?**
 
 
