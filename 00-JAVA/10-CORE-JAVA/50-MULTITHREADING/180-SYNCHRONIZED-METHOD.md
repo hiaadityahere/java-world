@@ -19,8 +19,8 @@ If a thread wants to execute a synchronized instance method then…
 >- `synchronized` static methods of that class
 >- non-synchronized static method of that class
 >[Lock concept is implements based on object but not based on method].
->[Refer this code-1](182-SYNC-VS-NON-SYNC-METHOD-ACCESS-EXAMPLE-1.md)
->[Refer this code-2](184-SYNCHRONIZED-INSTANCE-METHODS-ON-DIFFERENT-OBJECTS.md)
+>[Refer this code-1](./182-SYNC-VS-NON-SYNC-METHOD-ACCESS-EXAMPLE-1.md)
+>[Refer this code-2](./184-SYNCHRONIZED-INSTANCE-METHODS-ON-DIFFERENT-OBJECTS.md)
 #### 2. `synchronized` keyword on Static Method
 - `synchronized` keyword on Static Method works on **Class-Level Lock**.
 - In java every class gets **exactly one class lock**.
