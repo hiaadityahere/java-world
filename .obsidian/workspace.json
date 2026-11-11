@@ -63,8 +63,7 @@
               "title": "70-MULTITHREADING"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 397.5,
+    "collapsed": true
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -241,13 +241,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4305b2eab32bbc0f",
+  "active": "bc570b9746bd1543",
   "lastOpenFiles": [
+    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/30-THREAD.md",
+    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
+    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/230-FULL-THREAD-LIFYCYCLE.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/50-DEFINE-THREAD-BY-IMPLEMENTING-RUNNABLE-INTERFACE.md",
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/40-DEFINE-THREAD-BY-EXTENDING-THREAD-CLASS.md",
-    "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/30-THREAD.md",
-    "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/QUESTION-BANK/00-CORE-JAVA.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/recognize-main-thread.png",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/images/Pasted image 20261111103743.png",
