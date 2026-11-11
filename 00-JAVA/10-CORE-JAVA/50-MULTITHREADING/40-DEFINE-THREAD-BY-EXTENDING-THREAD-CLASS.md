@@ -1,10 +1,10 @@
 # Define a Thread By extending `Thread` class
 Creating our own Thread by extending **`Thread`** class:
-1. **Create a class that extends the `Thread` class.**
-2. **Override the `run()` method.**
-3. **Write the task/code that the thread should execute inside the `run()` method.**
-4. **Create an object of the custom thread class inside the `main()` method.**
-5. **Call `start()` on the thread object to start the thread.**
+1. Create a class that extends the `Thread` class.
+2. Override the `run()` method of the `Thread` class.
+3. Write the task/code that the thread should execute inside the `run()` method.
+4. Create an instance of the class that extends the `Thread` class.
+5. Call the `start()` method on the Thread object to start a new thread.
 
 Example-1:
 ```java
