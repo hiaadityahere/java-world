@@ -50,6 +50,7 @@
 	- It is the starting point of execution in a standard Java application.
 	- We can create additional threads from the main thread.
 8. **What happens when main thread finishes while other threads are still running?**
+
 	If the main thread finishes its execution while other threads are still running, the JVM does not terminate immediately. It waits for all remaining threads to complete their execution except Daemon Thread.
 9. **What is a daemon thread? Give a use case and explain what happens to it when all user threads finish.**
 	- The Threads which are executing in the background are called **Daemon Threads**. Example: Garbage Collector etc.
