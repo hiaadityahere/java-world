@@ -8,4 +8,4 @@
 	
 	A **Standalone Application** is an application that can run independently without depending on another application or external application server to execute its core functionality.
 
-	**Example:** An appl
+	**Example:** A java application running on console.
