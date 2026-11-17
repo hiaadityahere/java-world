@@ -1,6 +1,6 @@
 1. **What is a Web Application?**
-
-	Application which is available over internet for customer use.
+	- Application which is available over internet for customer use.
+	- Example of Web applications - Zerodha, Zoho, WhatsApp, IRCTC, Amazon, Flipkart, Rapido, Ola, Draw.io, YouTube, LinkedIn etc.
 2. **Define what is a standalone application?**
 	
 	A **Standalone Application** is an application that can run independently without depending on another application or external application server to execute its core functionality.
