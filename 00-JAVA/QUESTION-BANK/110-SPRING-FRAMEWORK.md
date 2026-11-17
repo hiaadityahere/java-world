@@ -30,3 +30,8 @@
 	1. **BeanFactory**
 	2. **ApplicationContext**
 8. **What is BeanFactory in Spring Framework?**
+	- BeanFactory is one of the types of Spring IoC Container. 
+	- It is the root interface of the Spring IoC Container which is responsible for providing basic bean management and dependency injection functionality.
+	- It is the most basic container which gives only basic features.
+	- `BeanFactory` uses lazy loading.
+	- Because of its limited features, `BeanFactory` is rarely used directly in real applications.
