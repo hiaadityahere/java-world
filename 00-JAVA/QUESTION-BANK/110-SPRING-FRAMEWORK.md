@@ -18,4 +18,4 @@
 5. **Which port does Apache Tomcat use by default for HTTP connections?**
 
 	8080
-6. 
+6. What is IoC, IoC Container and Bean in Spring Framework?
