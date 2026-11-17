@@ -35,4 +35,5 @@
 	- It is the most basic container which gives only basic features.
 	- `BeanFactory` uses <mark>lazy loading</mark>.
 	- Because of its limited features, `BeanFactory` is rarely used directly in real applications.
-9. 
+9. **What is ApplicationContext in Spring Framework?**
+	
