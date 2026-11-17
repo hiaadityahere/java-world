@@ -29,4 +29,4 @@
 	In Spring Framework, there are two types of IoC Container:
 	1. **BeanFactory**
 	2. **ApplicationContext**
-8. 
+8. **What is BeanFactory in Spring Framework?**
