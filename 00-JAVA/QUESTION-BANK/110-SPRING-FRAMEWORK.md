@@ -59,20 +59,20 @@
 	- In Lazy Loading, the IoC Container creates the bean only when it is requested for the first time, for example - by calling `getBean()`. 
 	- `BeanFactory` uses lazy loading.
 	
-		Advantage
+		<mark>Advantage</mark>
 		- Application startup is faster.
 		- Memory saving.
 		
-		Disadvantage
+		<mark>Disadvantage</mark>
 		- Configuration problems are found later, at runtime, when the bean is first requested.
 
-	**Eager Loading**
+	<mark>Eager Loading</mark>
 	- In Eager Loading, the IoC Container immediately creates the bean when the container starts. It does not wait for someone to ask for the beans. 
 	- `ApplicationContext` uses eager loading for singleton beans by default.
 	
-		Advantage
+		<mark>Advantage</mark>
 		-  Configuration problems (a wrong bean name, a missing dependency) are found at startup and not at runtime.
 		
-		Disadvantage
+		<mark>Disadvantage</mark>
 		- Application startup is slower.
 		- Memory consumption is higher (because all singleton beans are created even if some of them are never used).
