@@ -43,31 +43,30 @@
 		1. `ClassPathXmlApplicationContext`
 		2. `FileSystemXmlApplicationContext`
 		3. `AnnotationConfigApplicationContext`
-10. What is lazy loading and eager loading in Spring IoC Container?
+10. **What is lazy loading and eager loading in Spring IoC Container?**
 
-	(or)
+	**(or)**
 	
-	When does Spring create the beans, at startup or when we ask for them?
+	**When does Spring create the beans, at startup or when we ask for them?**
 
-	(or)
+	**(or)**
 
-	What is the difference between how BeanFactory and ApplicationContext load beans?
+	**What is the difference between how BeanFactory and ApplicationContext load beans?**
 
 	Lazy Loading and Eager Loading are the ways to tell the Spring IoC Container that when to create a bean.
 
-**Lazy Loading**
-- In Lazy Loading, the IoC Container creates the bean only when it is requested for the first time, for example - by calling `getBean()`. 
-- `BeanFactory` uses lazy loading.
+	**Lazy Loading**
+	- In Lazy Loading, the IoC Container creates the bean only when it is requested for the first time, for example - by calling `getBean()`. 
+	- `BeanFactory` uses lazy loading.
+	
+		Advantage
+		- Application startup is faster.
+		- Memory saving.
+		
+		Disadvantage
+		- Configuration problems are found later, at runtime, when the bean is first requested.
 
-	Advantage
-
-	- Application startup is faster.
-	- Memory saving.
-
-	Disadvantage
-	- Configuration problems are found later, at runtime, when the bean is first requested.
-
-**Eager Loading**
+	**Eager Loading**
 - In Eager Loading, the IoC Container immediately creates the bean when the container starts. It does not wait for someone to ask for the beans. 
 - `ApplicationContext` uses eager loading for singleton beans by default.
 
