@@ -19,3 +19,8 @@
 
 	8080
 6. What is IoC, IoC Container and Bean in Spring Framework?
+
+	When we are developing a Java application using Spring Framework then, instead of creating, managing, and nullifying objects by our application, we have handed over this responsibility to Spring, This concept is called as <mark>IoC (Inversion of Control)</mark>.
+
+	The part of Spring Framework which is responsible for Object Lifecycle Management is called as <mark>IoC Container</mark>.  IoC Container reads the configuration by using XML (or) Java config (or) annotations, it creates the objects, inject the necessary dependencies and manages their complete lifecycle.
+	and those objects which lifecycle is managed by this IoC Container is called as <mark>Beans</mark>.
