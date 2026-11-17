@@ -10,7 +10,11 @@
 	- Spring Framework is open Source __Enterprise Web Application Development__ framework which will help us to develop an application.
 	- Spring Framework is Light Weight, means we add only only those dependencies which our project needs.
 4. Why Spring Framework is considered as a light weight framework?
-	
+	- Spring Framework is considered lightweight because it supports
+		- POJO-based development
+		- Dependency Injection through IoC container
+		- and follows a modular architecture
+		We can use only the required modules without depending on heavyweight infrastructure.
 5. **Which port does Apache Tomcat use by default for HTTP connections?**
 
 	8080
