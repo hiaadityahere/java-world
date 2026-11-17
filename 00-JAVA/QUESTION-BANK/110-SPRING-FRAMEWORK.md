@@ -36,4 +36,44 @@
 	- `BeanFactory` uses <mark>lazy loading</mark>.
 	- Because of its limited features, `BeanFactory` is rarely used directly in real applications.
 9. **What is ApplicationContext in Spring Framework?**
+	- `ApplicationContext` is one of the types of Spring IoC Container. 
+	- It is a sub-interface of `BeanFactory` which has all the features of `BeanFactory` and it also contains the advanced enterprise-level features like- event publishing, internationalization (messages), resource loading etc.
+	- `ApplicationContext` uses eager loading.
+	- The implementations of `ApplicationContext` is:
+		1. `ClassPathXmlApplicationContext`
+		2. `FileSystemXmlApplicationContext`
+		3. `AnnotationConfigApplicationContext`
+10. What is lazy loading and eager loading in Spring IoC Container?
+
+	(or)
 	
+	When does Spring create the beans, at startup or when we ask for them?
+
+	(or)
+
+	What is the difference between how BeanFactory and ApplicationContext load beans?
+
+	Lazy Loading and Eager Loading are the ways to tell the Spring IoC Container that when to create a bean.
+
+**Lazy Loading**
+- In Lazy Loading, the IoC Container creates the bean only when it is requested for the first time, for example - by calling `getBean()`. 
+- `BeanFactory` uses lazy loading.
+
+	Advantage
+
+	- Application startup is faster.
+	- Memory saving.
+
+	Disadvantage
+	- Configuration problems are found later, at runtime, when the bean is first requested.
+
+**Eager Loading**
+- In Eager Loading, the IoC Container immediately creates the bean when the container starts. It does not wait for someone to ask for the beans. 
+- `ApplicationContext` uses eager loading for singleton beans by default.
+
+	Advantage
+	-  Configuration problems (a wrong bean name, a missing dependency) are found at startup and not at runtime.
+
+	Disadvantage
+	- Application startup is slower.
+	- Memory consumption is higher (because all singleton beans are created even if some of them are never used).
