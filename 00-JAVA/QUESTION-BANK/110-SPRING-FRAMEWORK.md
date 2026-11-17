@@ -55,7 +55,7 @@
 
 	Lazy Loading and Eager Loading are the ways to tell the Spring IoC Container that when to create a bean.
 
-	**Lazy Loading**
+	<mark>Lazy Loading</mark>
 	- In Lazy Loading, the IoC Container creates the bean only when it is requested for the first time, for example - by calling `getBean()`. 
 	- `BeanFactory` uses lazy loading.
 	
@@ -67,12 +67,12 @@
 		- Configuration problems are found later, at runtime, when the bean is first requested.
 
 	**Eager Loading**
-- In Eager Loading, the IoC Container immediately creates the bean when the container starts. It does not wait for someone to ask for the beans. 
-- `ApplicationContext` uses eager loading for singleton beans by default.
-
-	Advantage
-	-  Configuration problems (a wrong bean name, a missing dependency) are found at startup and not at runtime.
-
-	Disadvantage
-	- Application startup is slower.
-	- Memory consumption is higher (because all singleton beans are created even if some of them are never used).
+	- In Eager Loading, the IoC Container immediately creates the bean when the container starts. It does not wait for someone to ask for the beans. 
+	- `ApplicationContext` uses eager loading for singleton beans by default.
+	
+		Advantage
+		-  Configuration problems (a wrong bean name, a missing dependency) are found at startup and not at runtime.
+		
+		Disadvantage
+		- Application startup is slower.
+		- Memory consumption is higher (because all singleton beans are created even if some of them are never used).
