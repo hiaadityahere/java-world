@@ -207,8 +207,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,7 +221,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc570b9746bd1543",
+  "active": "3b82857056536616",
   "lastOpenFiles": [
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/200-INTER-THREAD-COMMUNICATION.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/186-SYNC-VS-NON-SYNC-METHOD-ACCESS-EXAMPLE-2.md",

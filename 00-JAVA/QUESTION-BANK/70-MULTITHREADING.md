@@ -33,11 +33,13 @@
 	- Concurrency can be achieve by Threads and ExecutorService Framework.
 	- Parallelism can be achieve by `parallelStream()` or a ForkJoinPool.
 6. **What are the advantages and disadvantages of multithreading?**
+
 	<mark>Advantage:</mark>
 	- Better CPU Utilization
 	- Improved Performance
 	- Resource Sharing
 	- Faster Context Switching
+
 	<mark>Disadvantage:</mark>
 	- Race Condition
 	- Deadlock
