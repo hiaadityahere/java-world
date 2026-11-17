@@ -9,7 +9,7 @@
 3. **What is Spring Framework?**
 	- Spring Framework is open Source __Enterprise Web Application Development__ framework which will help us to develop an application.
 	- Spring Framework is Light Weight, means we add only only those dependencies which our project needs.
-4. Why Spring Framework is considered as a light weight framework?
+4. **Why Spring Framework is considered as a light weight framework?**
 	- Spring Framework is considered lightweight because it supports
 		- POJO-based development
 		- Dependency Injection through IoC container
