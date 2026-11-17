@@ -9,3 +9,7 @@
 3. **What is Spring Framework?**
 	- Spring Framework is open Source __Enterprise Web Application Development__ framework which will help us to develop an application.
 	- Spring Framework is Light Weight, means we add only only those dependencies which our project needs.
+4. **Which port does Apache Tomcat use by default for HTTP connections?**
+
+	8080
+1. 
