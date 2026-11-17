@@ -14,7 +14,7 @@
 		- POJO-based development
 		- Dependency Injection through IoC container
 		- Modular Architecture
-		We can use only the required modules without depending on heavyweight infrastructure.
+		We use only the required modules and dependencies which our project needs and doesn't include entire framework.
 5. **Which port does Apache Tomcat use by default for HTTP connections?**
 
 	8080
