@@ -13,7 +13,7 @@
 	- Spring Framework is considered lightweight because it supports
 		- POJO-based development
 		- Dependency Injection through IoC container
-		- and follows a Modular Architecture
+		- Modular Architecture
 		We can use only the required modules without depending on heavyweight infrastructure.
 5. **Which port does Apache Tomcat use by default for HTTP connections?**
 
