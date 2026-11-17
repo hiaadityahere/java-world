@@ -25,3 +25,8 @@
 	The part of Spring Framework which is responsible for Object Lifecycle Management is called as <mark>IoC Container</mark>.  IoC Container reads the configuration by using XML (or) Java config (or) annotations, it creates the objects, inject the necessary dependencies and manages their complete lifecycle.
 	and those objects which lifecycle is managed by this IoC Container is called as <mark>Beans</mark>.
 7. **What are different types of IoC Container in Spring Framework?**
+
+	In Spring Framework, there are two types of IoC Container:
+	1. **BeanFactory**
+	2. **ApplicationContext**
+8. 
