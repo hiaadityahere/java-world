@@ -18,7 +18,7 @@
 5. **Which port does Apache Tomcat use by default for HTTP connections?**
 
 	8080
-6. What is IoC, IoC Container and Bean in Spring Framework?
+6. **What is IoC, IoC Container and Bean in Spring Framework?**
 
 	When we are developing a Java application using Spring Framework then, instead of creating, managing, and nullifying objects by our application, we have handed over this responsibility to Spring, This concept is called as <mark>IoC (Inversion of Control)</mark>.
 
