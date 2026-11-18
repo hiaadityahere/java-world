@@ -76,3 +76,6 @@
 		<mark>Disadvantage</mark>
 		- Application startup is slower.
 		- Memory consumption is higher (because all singleton beans are created even if some of them are never used).
+11. **In how many ways can we configure beans in Spring?**
+
+	In Spring, There are three ways to configure beans
