@@ -42,7 +42,7 @@
 	- The implementations of `ApplicationContext` is:
 		1. `ClassPathXmlApplicationContext` (**XML-Based**)
 		2. `FileSystemXmlApplicationContext` (**XML-Based**)
-		3. `AnnotationConfigApplicationContext`
+		3. `AnnotationConfigApplicationContext` (**Java-Based** & **Annotation-Based**)
 10. **What is lazy loading and eager loading in Spring IoC Container?**
 
 	**(or)**
