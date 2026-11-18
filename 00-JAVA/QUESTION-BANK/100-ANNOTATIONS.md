@@ -1,2 +1,2 @@
 1. @Configuration
-	@Configuration tells that this class is source of bean definition.
+	@Configuration is used to tells the Spring IoC Container that this class is source of bean definition.
