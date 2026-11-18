@@ -78,7 +78,7 @@
 		- Memory consumption is higher (because all singleton beans are created even if some of them are never used).
 11. **In how many ways can we configure beans in Spring?**
 
-	There are three ways to configure a beans in Spring:
+	There are three ways to configure a bean in Spring:
 	1. XML Based
 	2. Java Config
 	3. Annotation Based
