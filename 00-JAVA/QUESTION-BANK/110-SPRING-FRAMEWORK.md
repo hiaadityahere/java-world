@@ -40,8 +40,8 @@
 	- It is a sub-interface of `BeanFactory` which has all the features of `BeanFactory` and it also contains the advanced enterprise-level features like- event publishing, internationalization (messages), resource loading etc.
 	- `ApplicationContext` uses eager loading.
 	- The implementations of `ApplicationContext` is:
-		1. `ClassPathXmlApplicationContext`
-		2. `FileSystemXmlApplicationContext`
+		1. `ClassPathXmlApplicationContext` (**XML-Based**)
+		2. `FileSystemXmlApplicationContext` (**XML-Based**)
 		3. `AnnotationConfigApplicationContext`
 10. **What is lazy loading and eager loading in Spring IoC Container?**
 
