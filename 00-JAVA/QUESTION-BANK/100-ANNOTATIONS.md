@@ -4,4 +4,4 @@
 1. <mark>@Bean</mark>
 	
 	**@Bean** is a method-level annotation which is used to tell the Spring IoC Container to manage the object which is returned by that method.
-2. 
+1. @Componen
