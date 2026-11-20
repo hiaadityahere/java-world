@@ -15,5 +15,5 @@
 	**@Qualifier** is a field-level, parameter-level or method-level annotation which is used to tell the Spring IoC Container that which specific bean should be injected when we have multiple beans of the same type.
 5. <mark>@Primary</mark>
 	
-	**@Primary** is a class-level or method-level annotation which is used to tell the Spring IoC Container that which bean should be given as default for dependency injection when we 
+	**@Primary** is a class-level or method-level annotation which is used to tell the Spring IoC Container that which bean should be given as default for dependency injection when we have multiple beans of the same type.
 5. 
