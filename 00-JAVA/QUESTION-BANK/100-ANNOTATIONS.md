@@ -11,5 +11,5 @@
 
 	**@ComponentScan (basePackages = "com.flipkart")** is a class-level annotation which is used to tell the Spring IoC Container that scan the mentioned package and its subpackages for the class which is annotated with `@Component` and register their objects as a bean.
 5. <mark>@Qualifier</mark>
-	
+	**@Qualifier** is a field-level, 
 6. <mark>@Primary</mark>
