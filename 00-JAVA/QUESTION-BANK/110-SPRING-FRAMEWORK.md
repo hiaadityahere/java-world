@@ -120,7 +120,8 @@
 | 1   | Constructor DI is used when dependency is mandatory and immutable. | Setter DI is used when dependency is optional and mutable.          | Field DI is used when dependency is optional and mutable, and we want Spring to inject the dependency directly into the instance variable |
 | 2   | Constructor DI uses constructor to inject the dependency.          | Setter DI uses setter method to inject the dependency.              | in Field DI, using @Autowired, Spring directly inject the required dependency into the instance variable.                                 |
 | 3   | If we are using Constructor DI, a variable can `final`.            | If we are using Setter DI, a variable cannot be declare as `final`. | If we are using Field DI, a variable cannot be declare as `final`.                                                                        |
-| 4   |                                                                    |                                                                     |                                                                                                                                           |
+| 4   | Unit testing is Easy.                                              | Unit testing is Easy.                                               | Unit testing is comparatively difficult.                                                                                                  |
+|     |                                                                    |                                                                     |                                                                                                                                           |
 
 17. **Can you explain the scenarios where Constructor Injection, Setter Injection, and Field Injection are each the appropriate choice?**
 18. 
