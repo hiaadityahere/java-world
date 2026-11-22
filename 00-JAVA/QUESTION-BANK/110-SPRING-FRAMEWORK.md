@@ -90,7 +90,7 @@
 
 	**Example-2**: A `Customer` class object depends on `BankAccount` class object.
 
-**Example-3**: An `EmployeeDetails` class object depends on `PersonalDetails` class object + `EducationalDetails` class object + `Address` class Object + `LastEmployeeDetails` class Object.
+	**Example-3**: An `EmployeeDetails` class object depends on `PersonalDetails` class object + `EducationalDetails` class object + `Address` class Object + `LastEmployeeDetails` class Object.
 12. **What is Dependency Injection?**
 13. **How many types of Dependency Injection are there?**
 14. **How many types of Dependency Injection are there, and what is the difference between them?**
