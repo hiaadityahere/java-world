@@ -115,5 +115,11 @@
 	2. Setter Injection
 	3. Field Injection
 
+| #   | Constructor DI               | Setter DI | Field DI |
+| --- | ---------------------------- | --------- | -------- |
+| 1   | Constructor DI is used when  |           |          |
+|     |                              |           |          |
+|     |                              |           |          |
+
 17. **Can you explain the scenarios where Constructor Injection, Setter Injection, and Field Injection are each the appropriate choice?**
 18. 
