@@ -82,4 +82,6 @@
 	1. XML Based
 	2. Java Config
 	3. Annotation Based
-12.  
+12.  What is Dependency?
+13. What is Dependency Injection?
+14. How many types of Dependency Injection?
