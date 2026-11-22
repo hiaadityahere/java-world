@@ -115,11 +115,11 @@
 	2. Setter Injection
 	3. Field Injection
 
-| #   | Constructor DI               | Setter DI | Field DI |
-| --- | ---------------------------- | --------- | -------- |
-| 1   | Constructor DI is used when  |           |          |
-|     |                              |           |          |
-|     |                              |           |          |
+| #   | Constructor DI                                                     | Setter DI                                                  | Field DI                                                                                                                                  |
+| --- | ------------------------------------------------------------------ | ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Constructor DI is used when dependency is mandatory and immutable. | Setter DI is used when dependency is optional and mutable. | Field DI is used when dependency is optional and mutable, and we want Spring to inject the dependency directly into the instance variable |
+| 2   |                                                                    |                                                            |                                                                                                                                           |
+|     |                                                                    |                                                            |                                                                                                                                           |
 
 17. **Can you explain the scenarios where Constructor Injection, Setter Injection, and Field Injection are each the appropriate choice?**
 18. 
