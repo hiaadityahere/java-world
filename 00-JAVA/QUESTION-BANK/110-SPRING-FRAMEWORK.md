@@ -82,14 +82,15 @@
 	1. XML Based
 	2. Java Config
 	3. Annotation Based
-12.  **What is Dependency?** Dependency 
-	Dependency means one class object is depending on another class object.
+12.  **What is Dependency?** 
+    Dependency means one class object is depending on another class object.
+	
 
-	**Example-1** : An `Employee` class object depends on `Address` class object.
+**Example-1** : An `Employee` class object depends on `Address` class object.
 
-	**Example-2**: A `Customer` class object depends on `BankAccount` class object.
+**Example-2**: A `Customer` class object depends on `BankAccount` class object.
 
-	**Example-3**: An `EmployeeDetails` class object depends on `PersonalDetails` class object + `EducationalDetails` class object + `Address` class Object + `LastEmployeeDetails` class Object.
-13. **What is Dependency Injection?**
-14. **How many types of Dependency Injection are there?**
-15. **How many types of Dependency Injection are there, and what is the difference between them?**
+**Example-3**: An `EmployeeDetails` class object depends on `PersonalDetails` class object + `EducationalDetails` class object + `Address` class Object + `LastEmployeeDetails` class Object.
+14. **What is Dependency Injection?**
+15. **How many types of Dependency Injection are there?**
+16. **How many types of Dependency Injection are there, and what is the difference between them?**
