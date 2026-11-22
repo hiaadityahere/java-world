@@ -1,14 +1,17 @@
 1. **What is a Web Application?**
 	- Application which is available over internet for customer use.
 	- Example of Web applications - Zerodha, Zoho, WhatsApp, IRCTC, Amazon, Flipkart, Rapido, Ola, Draw.io, YouTube, LinkedIn etc.
+
 2. **Define what is a standalone application?**
 	
 	A **Standalone Application** is an application that can run independently without depending on another application or external application server to execute its core functionality.
 
 	**Example:** A java application running on console.
+
 3. **What is Spring Framework?**
 	- Spring Framework is open Source __Enterprise Web Application Development__ framework which will help us to develop an application.
 	- Spring Framework is Light Weight, means we add only only those dependencies which our project needs.
+
 4. **Why Spring Framework is considered as a light weight framework?**
 	- Spring Framework is considered lightweight because it supports
 		- POJO-based development
@@ -76,6 +79,7 @@
 		<mark>Disadvantage</mark>
 		- Application startup is slower.
 		- Memory consumption is higher (because all singleton beans are created even if some of them are never used).
+	
 11. **In how many ways can we configure beans in Spring?**
 
 	There are three ways to configure a bean in Spring:
