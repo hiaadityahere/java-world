@@ -122,7 +122,7 @@
 | 3   | If we are using Constructor DI, a variable can `final`.                               | If we are using Setter DI, a variable cannot be declare as `final`.           | If we are using Field DI, a variable cannot be declare as `final`.                                                                        |
 | 4   | Unit testing is Easy.                                                                 | Unit testing is Easy.                                                         | Unit testing is comparatively difficult.                                                                                                  |
 | 5   | If we are using Constructor DI, then dependencies are provided during object creation | If we are using Setter DI, dependencies can be provided after object creation | If we are using Field DI, dependencies are injected by Spring.                                                                            |
-| 6   |                                                                                       |                                                                               |                                                                                                                                           |
+| 6   | In Constructor DI, if we don't provide                                                |                                                                               |                                                                                                                                           |
 
 17. **Can you explain the scenarios where Constructor Injection, Setter Injection, and Field Injection are each the appropriate choice?**
 18. 
