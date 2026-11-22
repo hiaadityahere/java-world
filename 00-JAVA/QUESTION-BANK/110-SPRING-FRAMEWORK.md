@@ -84,4 +84,4 @@
 	3. Annotation Based
 12.  What is Dependency?
 13. What is Dependency Injection?
-14. How many types of Dependency Injection?
+14. How many types of Dependency Injection are there?
