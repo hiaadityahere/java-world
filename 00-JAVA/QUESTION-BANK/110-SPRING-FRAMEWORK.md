@@ -107,6 +107,12 @@
 14. **What is Dependency Injection?**
 
 	The process of injecting **dependency object** into **dependent object** is called **Dependency Injection** (DI).
-	
-15. **How many types of Dependency Injection are there?**
+
 16. **How many types of Dependency Injection are there, and what is the difference between them?**
+
+	We can achieve Dependency Injection using three types- 
+	1. Constructor Injection
+	2. Setter Injection
+	3. Field Injection
+
+17. 
