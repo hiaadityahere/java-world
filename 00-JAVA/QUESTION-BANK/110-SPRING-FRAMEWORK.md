@@ -82,3 +82,4 @@
 	1. XML Based
 	2. Java Config
 	3. Annotation Based
+12.  
