@@ -18,26 +18,31 @@
 		- Dependency Injection through IoC container
 		- Modular Architecture
 		We use only the required modules and dependencies which our project needs and doesn't include entire framework.
+
 5. **Which port does Apache Tomcat use by default for HTTP connections?**
 
 	8080
+
 6. **What is IoC, IoC Container and Bean in Spring Framework?**
 
 	When we are developing a Java application using Spring Framework then, instead of creating, managing, and nullifying objects by our application, we have handed over this responsibility to Spring, This concept is called as <mark>IoC (Inversion of Control)</mark>.
 
 	The part of Spring Framework which is responsible for Object Lifecycle Management is called as <mark>IoC Container</mark>.  IoC Container reads the configuration by using XML (or) Java config (or) annotations, it creates the objects, inject the necessary dependencies and manages their complete lifecycle.
 	and those objects which lifecycle is managed by this IoC Container is called as <mark>Beans</mark>.
+
 7. **What are different types of IoC Container in Spring Framework?**
 
 	In Spring Framework, there are two types of IoC Container:
 	1. **BeanFactory**
 	2. **ApplicationContext**
+
 8. **What is BeanFactory in Spring Framework?**
 	- BeanFactory is one of the types of Spring IoC Container. 
 	- It is the <mark>root interface of the Spring IoC Container</mark> which is responsible for providing basic bean management and dependency injection functionality.
 	- It is the most basic container which gives only basic features.
 	- `BeanFactory` uses <mark>lazy loading</mark>.
 	- Because of its limited features, `BeanFactory` is rarely used directly in real applications.
+
 9. **What is ApplicationContext in Spring Framework?**
 	- `ApplicationContext` is one of the types of Spring IoC Container. 
 	- It is a sub-interface of `BeanFactory` which has all the features of `BeanFactory` and it also contains the advanced enterprise-level features like- event publishing, internationalization (messages), resource loading etc.
@@ -46,6 +51,7 @@
 		1. `ClassPathXmlApplicationContext` (**XML-Based**)
 		2. `FileSystemXmlApplicationContext` (**XML-Based**)
 		3. `AnnotationConfigApplicationContext` (**Java-Based** & **Annotation-Based**)
+
 10. **What is lazy loading and eager loading in Spring IoC Container?**
 
 	**(or)**
@@ -80,12 +86,14 @@
 		- Application startup is slower.
 		- Memory consumption is higher (because all singleton beans are created even if some of them are never used).
 	
+
 11. **In how many ways can we configure beans in Spring?**
 
 	There are three ways to configure a bean in Spring:
 	1. XML Based
 	2. Java Config
 	3. Annotation Based
+
 12.  **What is Dependency?** 
     
 	Dependency means one class object is depending on another class object.
