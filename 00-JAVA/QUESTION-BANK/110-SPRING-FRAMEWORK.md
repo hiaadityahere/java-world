@@ -126,4 +126,6 @@
 
 
 17. **Can you explain the scenarios where Constructor Injection, Setter Injection, and Field Injection are each the appropriate choice?**
+	- **Constructor Injection:** The scenario where dependency is mandatory and immutable, at that time we will be using Constructor DI.
+	- 
 18. 
