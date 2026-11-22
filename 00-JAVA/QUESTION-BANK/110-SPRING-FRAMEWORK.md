@@ -115,4 +115,4 @@
 	2. Setter Injection
 	3. Field Injection
 
-17. 
+17. **Can you explain the scenarios where Constructor Injection, Setter Injection, and Field Injection are each the appropriate choice?**
