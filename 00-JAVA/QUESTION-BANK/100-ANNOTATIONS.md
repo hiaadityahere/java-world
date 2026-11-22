@@ -24,5 +24,5 @@
 
 3. <mark>@Autowired</mark>
 
-	
+	`@Autowired` is a field-level, constructor-level, or method-level annotation which is used to tell the Spring IoC Container that automatically identify and inject the required dependency into a bean.
 4. 
