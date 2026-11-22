@@ -94,9 +94,9 @@
 	2. Java Config
 	3. Annotation Based
 
-12.  **What is Dependency?** 
-    
-	Dependency means one class object is depending on another class object.
+12.  **What is Dependency?**
+	
+Dependency means one class object is depending on another class object.
 	
 
 **Example-1** : An `Employee` class object depends on `Address` class object.
