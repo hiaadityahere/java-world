@@ -129,4 +129,7 @@
 	- **Constructor Injection:** The scenario where dependency is mandatory and immutable, at that time we will be using Constructor DI.
 	- **Setter Injection:** The scenario where dependency is optional and mutable, at that time we will be using Setter DI.
 	- **Field Injection:** The scenario where dependency is optional and mutable, and we want Spring to inject the dependency directly into the instance variable, at that time we will be using Field DI.
-18. 
+
+18. **When do we get `NoUniqueBeanDefinitionException` in Spring Framework?**
+
+19. 
