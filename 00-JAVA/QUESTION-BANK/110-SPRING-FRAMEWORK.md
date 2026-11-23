@@ -143,4 +143,9 @@
 	Approach 2: Using `@Qualifier`
 
 19. **Why do we use `@Primary`?**
-20. **Why do we use @Qual
+	
+	**@Primary** is a class-level or method-level annotation which is used to tell the Spring IoC Container that which bean should be given preference by default for dependency injection when we have multiple beans of the same type.
+19. **Why do we use @Qualifier?**
+
+	**@Qualifier** is a field-level, parameter-level or method-level annotation which is used to tell the Spring IoC Container that which specific bean should be injected when we have multiple beans of the same type.
+20. 
