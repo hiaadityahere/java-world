@@ -139,5 +139,8 @@
 	Spring provides two annotations to resolve this `NoUniqueBeanDefinitionException`.
 
 	Approach 1: Using `@Primary`
+	
 	Approach 2: Using `@Qualifier`
-19. 
+
+19. **Why do we use `@Primary`?**
+20. **Why do we use @Qual
