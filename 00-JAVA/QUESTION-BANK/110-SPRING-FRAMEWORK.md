@@ -131,5 +131,13 @@
 	- **Field Injection:** The scenario where dependency is optional and mutable, and we want Spring to inject the dependency directly into the instance variable, at that time we will be using Field DI.
 
 18. **When do we get `NoUniqueBeanDefinitionException` in Spring Framework?**
+	
+	When Spring tries to resolve a dependency or trying to retrieve a bean (`context.getBean(Employee.class)`) by its type and find multiple beans of the same required type present in the Spring IoC Container. in this scenario when spring can not determine which bean should be injected, Spring throws `NoUniqueBeanDefinitionException`.
 
+18. **How can we resolve `NoUniqueBeanDefinitionException`?**
+
+	Spring provides two annotations to resolve this `NoUniqueBeanDefinitionException`.
+
+	Approach 1: Using `@Primary`
+	Approach 2: Using `@Qualifier`
 19. 
