@@ -35,7 +35,8 @@
               "title": "110-SPRING-FRAMEWORK"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.3000183105469,
-    "collapsed": true
+    "width": 310.3000183105469
   },
   "right": {
     "id": "da37fefebc188a99",
@@ -213,10 +213,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9a46b1f86142134",
+  "active": "a177271147eeadeb",
   "lastOpenFiles": [
-    "00-JAVA/QUESTION-BANK/110-SPRING-FRAMEWORK.md",
     "00-JAVA/QUESTION-BANK/100-ANNOTATIONS.md",
+    "00-JAVA/QUESTION-BANK/110-SPRING-FRAMEWORK.md",
     "00-JAVA/QUESTION-BANK/70-MULTITHREADING.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/200-INTER-THREAD-COMMUNICATION.md",
     "00-JAVA/10-CORE-JAVA/50-MULTITHREADING/186-SYNC-VS-NON-SYNC-METHOD-ACCESS-EXAMPLE-2.md",
