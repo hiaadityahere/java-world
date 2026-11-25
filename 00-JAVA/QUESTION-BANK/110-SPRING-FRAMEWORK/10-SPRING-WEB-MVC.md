@@ -15,5 +15,5 @@
 
 	In Spring MVC, the complete request-processing flow has 8 steps:
 	1. Client sends an HTTP request.
-	2. DispatcherServlet 
+	2. Tomcat server receives the request an `DispatcherServlet` receives the request
 4. 
