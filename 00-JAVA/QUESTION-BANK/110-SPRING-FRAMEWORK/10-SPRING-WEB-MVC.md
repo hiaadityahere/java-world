@@ -8,5 +8,5 @@
 
 	- `DispatcherServlet` is a Servlet which is provided by the Spring MVC Framework.
 	- `DispatcherServlet` is used to receive the incoming HTTP requests and delegates the responsibilities to `HandlerMapping`, `HandlerAdapter`, and `ViewResolver`.
-	- `DispatcherServlet` is called the Front Controller because 
+	- `DispatcherServlet` is called the Front Controller because It acts as the entry point of Spring MVC web application. 
 3. 
