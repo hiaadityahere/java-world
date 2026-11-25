@@ -55,4 +55,6 @@
 	- `<servlet-mapping>` is used to map the registered Servlet to a particular URL pattern.
 	- `<url-pattern>` specifies which incoming requests should be handled by the `DispatcherServlet`.
 
+		for example: `<url-pattern>`
+
 6. 
