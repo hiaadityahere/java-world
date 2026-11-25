@@ -1,0 +1,1 @@
+1. What is the Front Controller design pattern? How is it implemented in Spring MVC?
