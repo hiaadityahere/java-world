@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "10-SPRING-WEB-MVC"
             }
+          },
+          {
+            "id": "f9e1ad5ea8f0baef",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,10 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a71b1157cbf47e33",
+  "active": "f9e1ad5ea8f0baef",
   "lastOpenFiles": [
-    "00-JAVA/QUESTION-BANK/110-SPRING-FRAMEWORK.md",
     "00-JAVA/QUESTION-BANK/110-SPRING-FRAMEWORK/10-SPRING-WEB-MVC.md",
+    "00-JAVA/QUESTION-BANK/110-SPRING-FRAMEWORK.md",
     "00-JAVA/QUESTION-BANK/110-SPRING-FRAMEWORK/00-SPRING-CORE.md",
     "00-JAVA/QUESTION-BANK/100-ANNOTATIONS.md",
     "00-JAVA/QUESTION-BANK/110-SPRING-FRAMEWORK",
