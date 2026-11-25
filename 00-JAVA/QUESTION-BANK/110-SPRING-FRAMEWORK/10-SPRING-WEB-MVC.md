@@ -26,5 +26,5 @@
 	7. Depending on the Controller's return type, Spring MVC either uses
 		1. `ViewResolver` to resolve the view (or )
 		2. `HttpMessageConverter` to convert the returned object into a response format such as JSON.
-	8. Server sends the appropriate HTTP response is sent back to the client.
+	8. The server sends the appropriate HTTP response back to the client.
 4. 
