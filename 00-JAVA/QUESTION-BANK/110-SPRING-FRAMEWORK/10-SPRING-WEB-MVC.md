@@ -44,6 +44,6 @@
 	- In Spring MVC application, it is used for three purposes:
 		1. To configure the Front Controller (`DispatcherServlet`).
 		2. To define the URL mapping for the `DispatcherServlet`.
-		3. 
+		3. To configure the other web application components such as filters and listeners.
 
 5. 
