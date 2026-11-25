@@ -22,7 +22,7 @@
 		1. The controller method.
 		2. The process of executing that handler.
 		3. A sequence of applicable interceptors.
-	6. The exact controller method starts executing and process the request based the written logic and return the result.
+	6. The `DispatcherServlet` with the help of `HandlerAdapter`, invokes the selected Controller method and process the request based the written logic and return the result.
 	7. Depending on the Controller's return type, Spring MVC either uses
 		1. `ViewResolver` to resolve the view (or )
 		2. `HttpMessageConverter` to convert the returned object into a response format such as JSON.
