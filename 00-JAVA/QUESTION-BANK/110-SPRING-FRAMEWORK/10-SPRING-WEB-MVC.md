@@ -41,6 +41,9 @@
 4. **What is the role of** `web.xml` **in a traditional Spring MVC application?**
 
 	- `web.xml` is a deployment descriptor file used in Java web applications to configure the web application and its components.
-	- 
+	- In Spring MVC application, it is used for three purposes:
+		1. To configure the Front Controller (`DispatcherServlet`).
+		2. To define the URL mapping for the `DispatcherServlet`.
+		3. 
 
 5. 
