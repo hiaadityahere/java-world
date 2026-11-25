@@ -3,7 +3,7 @@
 	- Front Controller is a design pattern which is implemented by `DispatcherServlet`. 
 	- It acts as the entry point of Spring MVC web application.
 	- The `DispatcherServlet` class, with the help of `HandlerMapping`, knows that for all particular actions (means client requests) which controller class or method should be called.
-	- In our application, we need to configure the Front Controller so that all the requests must hit Front Controller class first.
+	- In our application, we need to configure the Front Controller so that all the requests must hit the **Front Controller class first**.
 2. **What is `DispatcherServlet`, and why is it called the Front Controller?**
 
 	- `DispatcherServlet` is a Servlet which is provided by the Spring MVC Framework.
