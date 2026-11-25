@@ -22,5 +22,5 @@
 		1. The controller method.
 		2. The process of executing that handler.
 		3. A sequence of applicable interceptors.
-	6. 
+	6. The exact controller method starts executing and process the request based the written logic
 4. 
