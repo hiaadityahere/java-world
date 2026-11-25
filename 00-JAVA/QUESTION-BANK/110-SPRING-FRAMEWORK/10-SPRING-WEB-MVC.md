@@ -18,5 +18,5 @@
 	2. Tomcat server receives the request and forward it to`DispatcherServlet`.
 	3. The `DispatcherServlet` delegates the responsibility to `HandlerMapping` to identify the exact Controller class and handler method based on the incoming request.
 	4. `HandlerMapping` returns the exact controller method  which will handle the request.
-	5. `HandlerMapping` returns **`HandlerExecutionChain`** which cont
+	5. `HandlerMapping` returns **`HandlerExecutionChain`** which contains 
 4. 
