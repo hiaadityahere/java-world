@@ -55,6 +55,8 @@
 	- `<servlet-mapping>` is used to map the registered Servlet to a particular URL pattern.
 	- `<url-pattern>` is used to tell the front controller that which incoming requests should be handled by the `DispatcherServlet`. if we are using **/**, it means all the requests after **/** will be considered.
 
-		for example: `<url-pattern>`
+6. **What happens if we do not configure the `DispatcherServlet` mapping correctly?**
 
-6. 
+	
+
+7. 
