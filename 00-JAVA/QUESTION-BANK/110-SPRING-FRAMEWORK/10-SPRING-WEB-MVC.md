@@ -46,9 +46,13 @@
 		2. To define the URL mapping for the `DispatcherServlet`.
 		3. To configure the other web application components such as filters and listeners.
 
-5. **How do you configure DispatcherServlet in web.xml?**
+5. **How do you configure `DispatcherServlet` in `web.xml`?**
 
-	In web.xml we can configure DispatcherServlet using the `<servlet> and <servlet-mapping>`.
-	- 
+	In web.xml we can configure `DispatcherServlet` using the `<servlet> and <servlet-mapping>`.
+	- `<servlet>` is used to register the `DispatcherServlet` with the Servlet container.
+	- `<servlet-name>` is used to define a name for the Servlet.
+	- `<servlet-class>` is used to specify the fully qualified class name of the Servlet.
+	- `<servlet-mapping>` is used to map the registered Servlet to a particular URL pattern.
+	- <url-pattern> specifies which incoming requests should be handled by the DispatcherServlet.
 
 6. 
