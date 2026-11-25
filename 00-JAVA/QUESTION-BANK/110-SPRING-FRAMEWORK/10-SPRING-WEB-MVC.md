@@ -13,7 +13,16 @@
 
 3. **Explain the complete request-processing flow in Spring MVC.**
 
-	()
+	(or)
+
+	When a client sends an HTTP request, how does Spring MVC identify which Controller class and method should handle that request?
+
+	(or)
+	
+	Suppose your application has multiple Controller classes. How does Spring MVC decide which Controller should receive a particular request?
+	
+	Answer 
+	
 	In Spring MVC, the complete request-processing flow has 8 steps:
 	1. Client sends an HTTP request.
 	2. Tomcat server receives the request and forward it to`DispatcherServlet`.
