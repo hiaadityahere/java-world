@@ -46,4 +46,4 @@
 		2. To define the URL mapping for the `DispatcherServlet`.
 		3. To configure the other web application components such as filters and listeners.
 
-5. 
+5. **How do you configure DispatcherServlet in web.xml?**
