@@ -33,7 +33,8 @@
 		2. The process of executing that handler.
 		3. A sequence of applicable interceptors.
 	6. The `DispatcherServlet` with the help of `HandlerAdapter`, invokes the selected Controller method and process the request based the written logic and return the result. During this process, `preHandle()` and `postHandle()` interceptor methods are executed.
-		1. 
+		1. `preHandle()` executes before the Controller method.
+		2. `postHandle()` executes after the Controller method successfully completes.
 	7. Depending on the Controller's return type, Spring MVC either uses
 		1. `ViewResolver` to resolve the view (or )
 		2. `HttpMessageConverter` to convert the returned object into a response format such as JSON.
