@@ -38,7 +38,7 @@
 	7. Depending on the Controller's return type, Spring MVC either uses
 		1. `ViewResolver` to resolve the view (or )
 		2. `HttpMessageConverter` to convert the returned object into a response format such as JSON.
-	8. The server sends the appropriate HTTP response back to the client.
+	8. The server sends the appropriate HTTP response back to the client. during this process `afterCompletion()` interceptor method gets executed.
 
 4. **What is the role of** `web.xml` **in a traditional Spring MVC application?**
 
