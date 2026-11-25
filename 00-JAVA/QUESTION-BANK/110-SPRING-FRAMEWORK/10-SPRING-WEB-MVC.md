@@ -57,6 +57,6 @@
 
 6. **What happens if we do not configure the `DispatcherServlet` mapping correctly?**
 
-	
+	If we don't configure the `DispatcherServlet` mapping correctly in `web.xml` then incoming requests may not reach the `DispatcherServlet`, and as a result 
 
 7. 
