@@ -37,4 +37,10 @@
 		1. `ViewResolver` to resolve the view (or )
 		2. `HttpMessageConverter` to convert the returned object into a response format such as JSON.
 	8. The server sends the appropriate HTTP response back to the client.
-4. 
+
+4. **What is the role of** `web.xml` **in a traditional Spring MVC application?**
+
+	- `web.xml` is a deployment descriptor file used in Java web applications to configure the web application and its components.
+	- 
+
+5. 
