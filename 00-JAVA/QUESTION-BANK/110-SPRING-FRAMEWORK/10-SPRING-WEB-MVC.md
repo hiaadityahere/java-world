@@ -6,5 +6,6 @@
 	- In our application, we need to configure the Front Controller so that all the requests must hit Front Controller class first.
 2. **What is `DispatcherServlet`, and why is it called the Front Controller?**
 
-	
+	- `DispatcherServlet` is a Servlet which is provided by the Spring MVC Framework.
+	- 
 3. 
