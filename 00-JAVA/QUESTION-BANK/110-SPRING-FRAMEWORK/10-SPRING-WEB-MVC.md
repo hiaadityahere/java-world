@@ -1,4 +1,4 @@
-1. What is the Front Controller design pattern? How is it implemented in Spring MVC?
+1. **What is the Front Controller design pattern? How is it implemented in Spring MVC?**
 
 	- Front Controller is a design pattern which is implemented by `DispatcherServlet`. 
 	- It acts as the entry point of Spring MVC web application.
@@ -15,11 +15,11 @@
 
 	(or)
 
-	When a client sends an HTTP request, how does Spring MVC identify which Controller class and method should handle that request?
+	**When a client sends an HTTP request, how does Spring MVC identify which Controller class and method should handle that request?**
 
 	(or)
 	
-	Suppose your application has multiple Controller classes. How does Spring MVC decide which Controller should receive a particular request?
+	**Suppose your application has multiple Controller classes. How does Spring MVC decide which Controller should receive a particular request?**
 	
 	Answer →
 	
@@ -47,3 +47,7 @@
 		3. To configure the other web application components such as filters and listeners.
 
 5. **How do you configure DispatcherServlet in web.xml?**
+
+	
+
+6. 
