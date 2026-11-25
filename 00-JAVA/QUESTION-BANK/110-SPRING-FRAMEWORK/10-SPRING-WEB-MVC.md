@@ -48,6 +48,7 @@
 
 5. **How do you configure DispatcherServlet in web.xml?**
 
-	
+	In web.xml we can configure DispatcherServlet using the `<servlet> and <servlet-mapping>`.
+	- 
 
 6. 
