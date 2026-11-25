@@ -59,4 +59,8 @@
 
 	If we don't configure the `DispatcherServlet` mapping correctly in `web.xml` then incoming requests may not reach the `DispatcherServlet`, and as a result `DispatcherServlet` will not be able to find the exact Controller method and the client will be get HTTP error response such as *404 Not Found*
 
-7. 
+7. **Can DispatcherServlet directly invoke a Controller method without using HandlerAdapter?**
+
+	No.
+
+8. 
