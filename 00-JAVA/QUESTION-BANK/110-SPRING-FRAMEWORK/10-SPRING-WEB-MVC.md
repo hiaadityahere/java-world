@@ -53,6 +53,6 @@
 	- `<servlet-name>` is used to define a name for the Servlet.
 	- `<servlet-class>` is used to specify the fully qualified class name of the Servlet.
 	- `<servlet-mapping>` is used to map the registered Servlet to a particular URL pattern.
-	- <url-pattern> specifies which incoming requests should be handled by the DispatcherServlet.
+	- `<url-pattern>` specifies which incoming requests should be handled by the `DispatcherServlet`.
 
 6. 
