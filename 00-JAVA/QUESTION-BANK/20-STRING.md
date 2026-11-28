@@ -31,10 +31,14 @@
 	In Java, == is used to compare the <mark>references</mark> of two String objects, whereas `equals()` method is used to compare their <mark>actual content</mark>.
 
 3. **What is String interning?**
+	
 	String interning is a memory optimization technique where Java ensures that only one copy of each string literal exists in memory. This copy is stored in the String Constant Pool (SCP) which allows the JVM to reuse it.
+
 4. **How does interning work?**
+	
 	When a String literal like "Java" is used, JVM checks whether it is already inside SCP or not:
 	- if it is there, JVM reuses the reference from the SCP.
 	- If it's not, JVM creates a new String object inside SCP and returns its reference.
+
 5. **Is String really thread-safe?**
 	Yes, String is thread-safe because of immutability. Once a String object is created, we cannot change its content. If we try to modify it, then instead of changing the original object. Even multiple thread safely shares the same String object.
