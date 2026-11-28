@@ -184,7 +184,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +199,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b82857056536616",
+  "active": "f9e1ad5ea8f0baef",
   "lastOpenFiles": [
     "00-JAVA/10-CORE-JAVA/25-SINGLETON-DESIGN-PATTERN/00-SINGLETON-INTRODUCTION.md",
     "00-JAVA/10-CORE-JAVA/25-SINGLETON-DESIGN-PATTERN/20.md",
